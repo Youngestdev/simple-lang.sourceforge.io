@@ -32,6 +32,9 @@
 	text-decoration: none;
 }
 
+#footer ul {
+}
+
 #contributor-profiles ul li {
 	margin:1.0%;
 	display: inline-block;
