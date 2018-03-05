@@ -32,7 +32,9 @@
 	text-decoration: none;
 }
 
-#footer ul {
+#footer .icons {
+	-ms-box-orient: horizontal;
+	width:100%;
 }
 
 #contributor-profiles ul li {
