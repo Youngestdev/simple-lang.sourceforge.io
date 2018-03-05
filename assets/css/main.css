@@ -1613,7 +1613,7 @@
 	}
 
 		a:hover {
-			color: #f35858;
+			color: #048ab7;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1688,7 +1688,7 @@
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #048ab7;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -1946,7 +1946,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
+			color: #048ab7;
 			border-color: rgba(243, 88, 88, 0.5);
 		}
 
@@ -2007,10 +2007,10 @@
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
@@ -2147,7 +2147,7 @@
 		}
 
 		.dropotron li.active > a, .dropotron li.active > span {
-			color: #f35858;
+			color: #048ab7;
 		}
 
 		.dropotron.level-0 {
@@ -2285,10 +2285,10 @@
 
 	#footer {
 		background-image: url("images/header.svg");
-		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 		background-color: #f08c89;
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
