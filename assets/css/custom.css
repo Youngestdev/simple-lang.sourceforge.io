@@ -62,6 +62,13 @@
 	font-size: 2em;
 }
 
+/** INDEX PAGE **/
+
+#sidebar .actions .button {
+	margin-top: 2.5%;
+	width: 100%;
+}
+
 .icon.major {
 	background: #272833;
 	border-radius: 100%;
