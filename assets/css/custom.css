@@ -1,6 +1,10 @@
 
 /** CUSTOM CSS **/
 
+html {
+	background:blue;
+}
+
 /** CONTRIBUTORS PAGE **/
 
 .wrapper #main {
