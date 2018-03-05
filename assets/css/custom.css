@@ -1,9 +1,28 @@
 
 /** CUSTOM CSS **/
 
+/** CONTRIBUTORS PAGE **/
+
 .wrapper #main {
 	margin-top:-7%;
 	text-align:center;
+}
+
+#contributor-profiles .profiles {
+	padding: 0;
+	margin:10px;
+	border: solid 1px white;
+	border-radius : 4px ;
+	list-style: none;
+	-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .icon.major {
