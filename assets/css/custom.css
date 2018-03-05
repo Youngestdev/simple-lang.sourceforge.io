@@ -1,11 +1,11 @@
 
 /** CUSTOM CSS **/
 
-html {
-	background:blue;
-}
-
 /** CONTRIBUTORS PAGE **/
+
+#header-wrapper {
+	/** background:blue; **/
+}
 
 .wrapper #main {
 	margin-top:-7%;
