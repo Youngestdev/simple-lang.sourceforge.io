@@ -1,9 +1,11 @@
 
 /** CUSTOM CSS **/
 
+#header-wrapper {
+	/** background:blue; **/
+}
+
 /** FOOTER **/
-
-
 
 #footer .icons li {
 	display: inline-block;
@@ -12,11 +14,11 @@
 	text-decoration: none;
 }
 
-/** CONTRIBUTORS PAGE **/
-
-#header-wrapper {
-	/** background:blue; **/
+#footer .icons li .icon {
+	font-size: 2.0em;
 }
+
+/** CONTRIBUTORS PAGE **/
 
 .wrapper #main {
 	margin-top:-7%;
