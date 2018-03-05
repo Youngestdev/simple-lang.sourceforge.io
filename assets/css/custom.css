@@ -90,6 +90,7 @@ code {
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
+		font-weight:700;
 	}
 
 	pre {
@@ -108,6 +109,10 @@ code {
 
 display-keyword {
 	color : blue ;
+}
+
+literal-keyword {
+	color : dark-gray ;
 }
 
 
