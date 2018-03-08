@@ -68,7 +68,12 @@
 	margin: 1px 0px 150px 0px;
 	height: 2.5em;
 	text-decoration: none;
-	width:25%;
+	width:310px;
+}
+
+#footer-sitemap ul span { 
+	color : #bec9d8 ;
+	font-weight : 700px ;
 }
 
 /** CONTRIBUTORS PAGE **/
