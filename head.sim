@@ -58,17 +58,19 @@ if locationUrl == indexUrl {
 	landingSection = new Section("hero")
 	landingSection.setStyleClass("container")
 	landingSection.addStyle("margin-top:-5%;")
-	landingSection.addHTML('<header>
+	landingSection.addHTML('<div id="introduction"><header>
 		<h2> SIMPLE 
 		<br />
 		<span >Simple Intelligent and Modular Programming Language and Environment</span></h2>
 	</header>
-	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p>
+	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p></div>
+	<div>
+	<div>
 	<ul class="actions">
-		<li><a href="./examples/" class="button">TRY ONLINE</a></li>
+		<li><a id="shell_hero" class="button">TRY ONLINE</a></li>
 		<li><a href="#shell" class="button">Download</a></li>
 		<li><a href="./examples/" class="button">Gallery</a></li>
-	</ul>')
+	</ul>') #try_online_shell
 	headerWrapper.add([header,landingSection])
  else 
 	headerWrapper.add([header])
