@@ -31,7 +31,7 @@ nav = new Nav("nav")
 ul = new Ul
 docu = new Li docu.add(new Link("Documentation", documentationUrl)) 
 
-ul.add([docu,docu,docu,docu,docu])
+ul.add([docu])
 nav.add(ul)
 header.add([logo,nav])
 headerWrapper.add([header])
