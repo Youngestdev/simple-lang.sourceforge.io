@@ -63,8 +63,8 @@
 	flex-wrap: wrap;
 }
 
-#footer-sitemap ul li {
-	margin:1.0%;
+#footer-sitemap ul {
+	margin: 4% 4% 50px 10%;
 	display: inline-block;
 	height: 2.5em;
 	line-height: 2.5em;

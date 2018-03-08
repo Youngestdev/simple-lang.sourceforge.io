@@ -29,6 +29,6 @@ aboutUl = new Ul aboutUl.addHTML('<span>About</span>')
 for a = 0 to lengthOf(aboutList)
 	aboutUl.addHTML('<li>'+aboutList[a].toString()+'</li>')
 end
-footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+'
+footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 
