@@ -14,4 +14,7 @@ buildFromScratchUrl = "./pages/buildfromsource.sim"
 
 #about links in footer
 aboutList = []
-add(aboutList, new Link("Google", "google.com"))
+add(aboutList, new Link("Simple", "google.com"))
+add(aboutList, new Link("Modular", "google.com"))
+add(aboutList, new Link("SimpleRepl", "google.com"))
+add(aboutList, new Link("snake", "google.com"))

@@ -61,15 +61,14 @@
 	display: flex;
 	color : white ;
 	flex-wrap: wrap;
+	margin:1%;
 }
 
 #footer-sitemap ul {
-	margin: 4% 4% 50px 10%;
-	display: inline-block;
+	margin: 1px 0px 150px 0px;
 	height: 2.5em;
-	line-height: 2.5em;
-	padding: 0 0.5em;
 	text-decoration: none;
+	width:25%;
 }
 
 /** CONTRIBUTORS PAGE **/
