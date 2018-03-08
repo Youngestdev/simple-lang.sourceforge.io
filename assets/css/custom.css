@@ -71,9 +71,14 @@
 	width:310px;
 }
 
+#footer-sitemap ul li a:hover {
+	color:#132138;
+	font-weight : bold ;
+}
+
 #footer-sitemap ul span { 
-	color : #bec9d8 ;
-	font-weight : 700px ;
+	color : #132138 ;
+	font-weight : bold ;
 }
 
 /** CONTRIBUTORS PAGE **/
