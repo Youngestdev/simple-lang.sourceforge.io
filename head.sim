@@ -65,8 +65,10 @@ if locationUrl == indexUrl {
 	</header>
 	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p></div>
 	<div id="try_online_shell" >
+	<span> Enter Your Code </span>
 	<textarea id="code_to_execute" style="height:70px;width:100%;background:black;">
 	</textarea>
+	<a href="#" class="button" style="width:100%;">Execute</a>
 	<iframe id="execute_simple_code" style="height:350px;width:100%;background:black;">
 	
 	</iframe>
