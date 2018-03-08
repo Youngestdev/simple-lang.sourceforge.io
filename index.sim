@@ -22,8 +22,8 @@ head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.
 headerWebpage.setHead(head)
 #
 pageWrapper = new Div("page-wrapper")
-pageWrapper.add([header])
+pageWrapper.add([headerWrapper])
 
-
+headerWebpage.addToBody(pageWrapper)
 headerWebpage.render() 
 #<< HEAD and HEADER end
