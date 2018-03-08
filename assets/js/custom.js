@@ -18,6 +18,10 @@ $(document).ready(function(){
   });
 });
 
+function buttonClicks() {
+	
+}
+
 function loadTest() {
 	$("#execute_simple_code").attr('src', 'execute_code.sim');
 }
