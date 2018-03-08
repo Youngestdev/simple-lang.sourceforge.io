@@ -19,5 +19,5 @@ $(document).ready(function(){
 });
 
 function loadTest() {
-	$("#execute_simple_code").attr('src', 'http://localhost/simple-lang.sourceforge.io/contributors.html');
+	$("#execute_simple_code").attr('src', 'execute_code.sim');
 }
