@@ -29,9 +29,14 @@ logo = new H1("logo") logo.add(new Link("simple - home", indexUrl))
 #the menus
 nav = new Nav("nav")
 ul = new Ul
-docu = new Li docu.add(new Link("Documentation", documentationUrl)) 
+docu = new Li docu.add(new Link("Documentation", documentationUrl))
+download = new Li download.add(new Link("Documentation", downloadUrl)) 
+modules = new Li modules.add(new Link("Modules", modulesUrl)) 
+environ = new Li environ.add(new Link("Environment", environmentUrl)) 
+contributors = new Li contributors.add(new Link("Contributors", contributorsUrl)) 
+contribute = new Li contribute.add(new Link("Contribute", contributeUrl)) 
 
-ul.add([docu])
+ul.add([docu,download,modules,environ,contributors,contribute])
 nav.add(ul)
 header.add([logo,nav])
 headerWrapper.add([header])

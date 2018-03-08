@@ -2,3 +2,8 @@
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
 documentationUrl = "./pages/documentation.sim"
+downloadUrl = "./download/"
+modulesUrl = "./modules/"
+environmentUrl = "./pages/environment.sim"
+contributorsUrl = "./pages/contributors.sim"
+contributeUrl = "./pages/contribute.sim"
