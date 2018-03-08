@@ -21,5 +21,8 @@ ful = new Ul ful.setStyleClass("icons")
 ful.add([tLi,gLi,fLi])
 
 #the copyright
+sil = new Li sil.addHTML('<li>Copyright &copy; 2018 <a href="./index.html">SIMPLE</a>. Built with simple with love </li>
+						<li>Hosted at <a href="https://sourceforge.net">Sourceforge</a>. Template Inspired by <a href="http://html5up.net">HTML5 UP</a></li>')
+cul = new Ul cul.setStyleClass("copyright") cul.add(sil)
 
-footer.addHTML(ful.toString()) 
+footer.add([ful,cul]) 
