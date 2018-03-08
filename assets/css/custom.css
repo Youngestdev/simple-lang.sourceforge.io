@@ -66,8 +66,8 @@
 }
 
 #footer-sitemap ul {
-	margin: 1px 0px 5% 0px;
-	height: 2.5em;
+	margin: 0px;
+	display: inline-block;
 	text-decoration: none;
 	width:310px;
 }
