@@ -22,6 +22,8 @@ buildFromScratchUrl = "./pages/buildfromsource.sim"
 
 examplesUrl = "./pages/examples/"
 	helloWorldUrl = examplesUrl+"helloworld.sim"
+	fileUrl = examplesUrl+"file.sim"
+	directoryUrl = examplesUrl+"directory.sim"
 
 #about links in footer
 aboutList = []
@@ -48,13 +50,29 @@ add(documentationList, new Link("Docs", docUrl))
 #Examples links in footer
 examplesList = []
 add(examplesList, new Link("Hello World", helloWorldUrl))
+add(examplesList, new Link("Block", fileUrl))
+add(examplesList, new Link("Call", fileUrl))
+add(examplesList, new Link("For..Loop", fileUrl))
+add(examplesList, new Link("If..Elif..Else", fileUrl))
+add(examplesList, new Link("Module", fileUrl))
+add(examplesList, new Link("Switch", fileUrl))
+add(examplesList, new Link("Try..Catch..End", fileUrl))
 add(examplesList, new Link("File", fileUrl))
 add(examplesList, new Link("Directory", directoryUrl))
 add(examplesList, new Link("Zip", directoryUrl))
-add(examplesList, new Link("Directory", directoryUrl))
-add(examplesList, new Link("Directory", directoryUrl))
-add(examplesList, new Link("Directory", directoryUrl))
-add(examplesList, new Link("Directory", directoryUrl))
+add(examplesList, new Link("Encrypt Decrypt", directoryUrl))
+add(examplesList, new Link("Hash/Security", directoryUrl))
+add(examplesList, new Link("Runtime/System", directoryUrl))
+add(examplesList, new Link("Console", directoryUrl))
+add(examplesList, new Link("Curl", directoryUrl))
+add(examplesList, new Link("Download", directoryUrl))
+add(examplesList, new Link("Custom HTTP Header", directoryUrl))
+add(examplesList, new Link("JSON", directoryUrl))
+add(examplesList, new Link("Callback", directoryUrl))
+add(examplesList, new Link("Label", directoryUrl))
+add(examplesList, new Link("GUI/Fulltick", directoryUrl))
+add(examplesList, new Link("Window", directoryUrl))
+add(examplesList, new Link("Buttons", directoryUrl))
 
 
 
