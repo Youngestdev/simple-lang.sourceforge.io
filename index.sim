@@ -16,8 +16,11 @@ head.setTitle("simple") #set title
 head.setIcon("favicon.ico") 
 
 #add all meta data link and add script if needed : declared in head.sim
-head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(headLink1)
-head.addElement(headScript)
+head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
+#end head styling 
 webpage.setHead(head)
+
+
+
 
 webpage.render() 

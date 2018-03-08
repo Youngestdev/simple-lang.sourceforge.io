@@ -6,17 +6,16 @@ call "web/front/elements/Head.sim" ? web.front.elements
 #an example meta data
 headMeta = new HeadMeta
 headMeta.setName("twitter:title") headMeta.setProperty("og:title") headMeta.setItemProp("title name")
-headMeta.setContent("Home of SIMPLE")
+headMeta.setContent("Home of simple")
 
-#another website head
+#other website head
 headMeta2 = new HeadMeta headMeta2.setProperty("og:type") headMeta2.setContent("website")
-headMeta3 = new HeadMeta headMeta3.setProperty("og:url") headMeta3.setContent("http://www.simple.lang")
 
-#website links
-headLink1 = new HeadLink
-headLink1.setRel("stylesheet") headLink1.setType("text/css") headLink1.setLink("assets/css/main.css")
+headMeta3 = new HeadMeta headMeta3.setProperty("og:url") headMeta3.setContent("simple-lang.sourceforge.io")
 
-headScript = new ScriptLink
-headScript.setSrc("assets/js/header.js")
+#website links, styles and scripts
+style1 = new HeadLink
+style1.setRel("stylesheet") style1.setType("text/css") style1.setLink("assets/css/main.css")
 
-mainhtmlagstyling = 'onClick="bgClick()"'
+style2 = new HeadLink
+style2.setRel("stylesheet") style2.setType("text/css") style2.setLink("assets/css/custom.css")
