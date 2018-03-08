@@ -63,6 +63,7 @@
 	flex-wrap: wrap;
 	margin:1%;
 	position:relative;
+	align-items: baseline;
 }
 
 #footer-sitemap ul {
