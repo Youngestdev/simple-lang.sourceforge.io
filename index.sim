@@ -13,7 +13,7 @@ call "footer.sim"
 headerWebpage = new Webpage() head = new Head
 
 #styling the head
-head.setTitle("simple") #set title
+head.setTitle("Welcome to simple") #set title
 head.setIcon("favicon.ico") 
 
 #add all meta data link and add script if needed : declared in head.sim
