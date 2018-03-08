@@ -37,7 +37,11 @@ documentationUl = new Ul documentationUl.addHTML('<span>Documentation</span>')
 for a  = 0 to lengthOf(documentationList)
 	documentationUl.addHTML('<li>'+documentationList[a].toString()+'</li>')
 end
+examplesUl = new Ul examplesUl.addHTML('<span>Examples</span>')
+for a  = 0 to lengthOf(examplesList)
+	examplesUl.addHTML('<li>'+examplesList[a].toString()+'</li>')
+end
 footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+'
-	'+documentationUl.toString()+aboutUl.toString()+aboutUl.toString()+'
+	'+documentationUl.toString()+examplesUl.toString()+aboutUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 

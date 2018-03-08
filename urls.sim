@@ -20,6 +20,9 @@ contributorsUrl = "./pages/contributors.sim"
 contributeUrl = "./pages/contribute.sim"
 buildFromScratchUrl = "./pages/buildfromsource.sim"
 
+examplesUrl = "./pages/examples/"
+	helloWorldUrl = examplesUrl+"helloworld.sim"
+
 #about links in footer
 aboutList = []
 add(aboutList, new Link("Simple", "google.com"))
@@ -43,8 +46,15 @@ add(documentationList, new Link("Syntax Sheet", syntaxSheetUrl))
 add(documentationList, new Link("Docs", docUrl))
 
 #Examples links in footer
-examplesLink = []
-add(examplesLink, new Link("Hello World", helloWorldUrl))
+examplesList = []
+add(examplesList, new Link("Hello World", helloWorldUrl))
+add(examplesList, new Link("File", fileUrl))
+add(examplesList, new Link("Directory", directoryUrl))
+add(examplesList, new Link("Zip", directoryUrl))
+add(examplesList, new Link("Directory", directoryUrl))
+add(examplesList, new Link("Directory", directoryUrl))
+add(examplesList, new Link("Directory", directoryUrl))
+add(examplesList, new Link("Directory", directoryUrl))
 
 
 
