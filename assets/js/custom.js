@@ -26,6 +26,5 @@ function buttonClicks() {
 }
 
 function executeCGICode(code) {
-	alert(code);
 	$("#execute_simple_code").attr('src', 'execute_code.sim?'+code);
 }
