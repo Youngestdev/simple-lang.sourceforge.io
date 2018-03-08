@@ -28,9 +28,10 @@ logo = new H1("logo") logo.add(new Link("simple - home", indexUrl))
 
 #the menus
 nav = new Nav("nav")
-ul = new Ul()
+ul = new Ul
+docu = new Li docu.add(new Link("Documentation", documentationUrl)) 
 
-
+ul.add([docu,docu,docu,docu,docu])
 nav.add(ul)
 header.add([logo,nav])
 headerWrapper.add([header])

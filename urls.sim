@@ -1,3 +1,4 @@
 
-
+url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
+documentationUrl = url+"pages/documentation.sim"
