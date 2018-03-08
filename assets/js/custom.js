@@ -1,11 +1,15 @@
  
 $(document).ready(function(){
 
-	loadTest();
+	buttonClicks();
   // Hide div 2 by default
   $('#try_online_shell').hide();
+	
+  
+});
 
-  $('#shell_hero').click(function(){ 
+function buttonClicks() {
+	$('#shell_hero').click(function(){ 
 	if ($('#shell_hero').html() == "TRY ONLINE") {
 		$('#introduction').hide();
 		$('#try_online_shell').show();
@@ -16,12 +20,11 @@ $(document).ready(function(){
 		$('#shell_hero').text("TRY ONLINE");
 	}      
   });
-});
-
-function buttonClicks() {
-	
+	$('#exec_code').click(function(){ 
+		executeCGICode();
+	});
 }
 
-function loadTest() {
-	$("#execute_simple_code").attr('src', 'execute_code.sim');
+function executeCGICode(code) {
+	$("#execute_simple_code").attr('src', 'execute_code.sim?'+code);
 }

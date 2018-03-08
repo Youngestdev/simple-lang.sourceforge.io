@@ -68,7 +68,7 @@ if locationUrl == indexUrl {
 	<span> Enter Your Code </span>
 	<textarea id="code_to_execute" style="height:70px;width:100%;background:black;solid 3px white;">
 	</textarea>
-	<a href="#" class="button" style="width:100%;">Execute</a>
+	<a href="#" id="exec_code" class="button" style="width:100%;">Execute</a>
 	<iframe id="execute_simple_code" style="height:250px;width:100%;border:solid 3px white;">
 	
 	</iframe>
