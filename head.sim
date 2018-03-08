@@ -16,6 +16,8 @@ headMeta2 = new HeadMeta headMeta2.setProperty("og:type") headMeta2.setContent("
 
 headMeta3 = new HeadMeta headMeta3.setProperty("og:url") headMeta3.setContent("simple-lang.sourceforge.io")
 
+headMeta4 = new HeadMeta headMeta4.setName("viewport") headMeta4.setContent("width=device-width, initial-scale=1")
+
 #website links, styles and scripts
 style1 = new HeadLink
 style1.setRel("stylesheet") style1.setType("text/css") style1.setLink("assets/css/main.css")
