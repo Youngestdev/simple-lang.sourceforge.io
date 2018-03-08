@@ -60,7 +60,7 @@ add(examplesList, new Link("Try..Catch..End", fileUrl))
 add(examplesList, new Link("File", fileUrl))
 add(examplesList, new Link("Directory", directoryUrl))
 add(examplesList, new Link("Zip", directoryUrl))
-add(examplesList, new Link("Encrypt Decrypt", directoryUrl))
+/*add(examplesList, new Link("Encrypt Decrypt", directoryUrl))
 add(examplesList, new Link("Hash/Security", directoryUrl))
 add(examplesList, new Link("Runtime/System", directoryUrl))
 add(examplesList, new Link("Console", directoryUrl))
@@ -72,7 +72,7 @@ add(examplesList, new Link("Callback", directoryUrl))
 add(examplesList, new Link("Label", directoryUrl))
 add(examplesList, new Link("GUI/Fulltick", directoryUrl))
 add(examplesList, new Link("Window", directoryUrl))
-add(examplesList, new Link("Buttons", directoryUrl))
+add(examplesList, new Link("Buttons", directoryUrl)) */
 
 
 

@@ -62,10 +62,11 @@
 	color : white ;
 	flex-wrap: wrap;
 	margin:1%;
+	position:relative;
 }
 
 #footer-sitemap ul {
-	margin: 1px 0px 150px 0px;
+	margin: 1px 0px 5% 0px;
 	height: 2.5em;
 	text-decoration: none;
 	width:310px;
