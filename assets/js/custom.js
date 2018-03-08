@@ -36,6 +36,6 @@ function slideShow() {
 		.next()
 		.fadeIn(1000)
 		.end()
-		.appendTo('#slideshow');
+		.appendTo('#introduction');
 	}, 3000);
 }
