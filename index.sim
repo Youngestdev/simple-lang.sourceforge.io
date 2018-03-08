@@ -1,4 +1,6 @@
-<!DOCTYPE HTML>
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+display '<!DOCTYPE HTML>
 <!--
 	Telephasic by HTML5 UP
 	html5up.net | @ajlkn
@@ -151,4 +153,4 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
+</html>'

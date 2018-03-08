@@ -1,0 +1,22 @@
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+call "web/front/Webpage.sim" ? web.front
+call "web/front/elements/Head.sim" ? web.front.elements
+
+#an example meta data
+headMeta = new HeadMeta
+headMeta.setName("twitter:title") headMeta.setProperty("og:title") headMeta.setItemProp("title name")
+headMeta.setContent("Home of SIMPLE")
+
+#another website head
+headMeta2 = new HeadMeta headMeta2.setProperty("og:type") headMeta2.setContent("website")
+headMeta3 = new HeadMeta headMeta3.setProperty("og:url") headMeta3.setContent("http://www.simple.lang")
+
+#website links
+headLink1 = new HeadLink
+headLink1.setRel("stylesheet") headLink1.setType("text/css") headLink1.setLink("assets/css/main.css")
+
+headScript = new ScriptLink
+headScript.setSrc("assets/js/header.js")
+
+mainhtmlagstyling = 'onClick="bgClick()"'
