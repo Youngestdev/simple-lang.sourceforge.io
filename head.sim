@@ -64,10 +64,15 @@ if locationUrl == indexUrl {
 		<span >Simple Intelligent and Modular Programming Language and Environment</span></h2>
 	</header>
 	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p></div>
-	<textarea id="try_online_shell" style="height:450px;width:100%;background:black;">
+	<div id="try_online_shell" >
+	<iframe id="testframe">
+	
+	</iframe>
+	<textarea  style="height:450px;width:100%;background:black;">
 	</textarea>
+	</div>
 	<ul class="actions">
-		<li><a id="shell_hero" class="button">TRY ONLINE</a></li>
+		<li><a href="#" id="shell_hero" class="button">TRY ONLINE</a></li>
 		<li><a href="#shell" class="button">Download</a></li>
 		<li><a href="./examples/" class="button">Gallery</a></li>
 	</ul>') #
