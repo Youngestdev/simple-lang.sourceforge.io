@@ -2,5 +2,4 @@
 
 call "web/functions/Methods.sim"
 
-display getRawUrlData() + crlf
 executeCode(getUrlDataAsString())
