@@ -21,10 +21,11 @@ function buttonClicks() {
 	}      
   });
 	$('#exec_code').click(function(){ 
-		executeCGICode();
+		executeCGICode($('#code_to_execute').val());
 	});
 }
 
 function executeCGICode(code) {
+	alert(code);
 	$("#execute_simple_code").attr('src', 'execute_code.sim?'+code);
 }
