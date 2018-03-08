@@ -10,14 +10,18 @@ call "head.sim"
 call "footer.sim"
 
 webpage = new Webpage() head = new Head
+#webpage.styleMainTag(mainhtmlagstyling)
 
 #styling the head
-head.setTitle("simple") #set title
-head.setIcon("favicon.ico") 
+head.setTitle("SIMPLE") #set title
+head.setIcon("https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d") #set icon
 
 #add all meta data link and add script if needed : declared in head.sim
 head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(headLink1)
 head.addElement(headScript)
 webpage.setHead(head)
+webpage.addFooter(footer)
 
+#display ""+headMeta.toString()
+#render the webpage
 webpage.render() 
