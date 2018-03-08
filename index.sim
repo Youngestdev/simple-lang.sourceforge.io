@@ -9,7 +9,9 @@ call "web/front/elements/Head.sim" ? web.front.elements
 call "head.sim"
 call "footer.sim"
 
-webpage = new Webpage() head = new Head
+#>>> HEAD and HEADER 
+headerWebpage = new Webpage() head = new Head
+headerWebpage .styleMainTag(mainhtmlagstyling)
 
 #styling the head
 head.setTitle("simple") #set title
@@ -18,9 +20,6 @@ head.setIcon("favicon.ico")
 #add all meta data link and add script if needed : declared in head.sim
 head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
 #end head styling 
-webpage.setHead(head)
-
-
-
-
-webpage.render() 
+headerWebpage.setHead(head)
+headerWebpage.render() 
+#<< HEAD and HEADER end
