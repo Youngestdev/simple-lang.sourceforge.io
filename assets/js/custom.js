@@ -19,6 +19,5 @@ $(document).ready(function(){
 });
 
 function loadTest() {
-	var iframe = $("#execute_simple_code");
-    iframe.attr("src", iframe.data("contributors.html"));
+	$("#execute_simple_code").attr('src', 'http://localhost/simple-lang.sourceforge.io/contributors.html');
 }
