@@ -25,17 +25,14 @@ sil = new Li sil.addHTML('<li>Copyright &copy; 2018 <a href="./index.html">SIMPL
 						<li>Hosted at <a href="https://sourceforge.net">Sourceforge</a>. Template Inspired by <a href="http://html5up.net">HTML5 UP</a></li>')
 cul = new Ul cul.setStyleClass("copyright") cul.add(sil)
 
-footer.addHTML('<div style="color:white;display:flex;"><ul> title
+aboutUl = new Ul
+for a = 0 to lengthOf(aboutList)
+
+end
+footer.addHTML('<div style="color:white;display:flex;">'+aboutUl.toString()+'
+	<ul> title 
 		<li><a href="#">Footer Link</a></li>
 		<li><a href="#">Footer Linkvff</a></li>
-		<li><a href="#">Footer Link</a></li>
-		<li><a href="#">Footer Link</a></li>
-		<li><a href="#">Footer Link</a></li>
-		<li><a href="#">Footer Link</a></li>
-	</ul>
-	<ul>
-		<li><a href="#">Footer Link</a></li>
-		<li><a href="#">Footer Link</a></li>
 		<li><a href="#">Footer Link</a></li>
 		<li><a href="#">Footer Link</a></li>
 		<li><a href="#">Footer Link</a></li>
