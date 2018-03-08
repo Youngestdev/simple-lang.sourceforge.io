@@ -42,6 +42,6 @@ for a  = 0 to lengthOf(examplesList)
 	examplesUl.addHTML('<li>'+examplesList[a].toString()+'</li>')
 end
 footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+'
-	'+documentationUl.toString()+examplesUl.toString()+aboutUl.toString()+'
+	'+documentationUl.toString()+examplesUl.toString()+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 
