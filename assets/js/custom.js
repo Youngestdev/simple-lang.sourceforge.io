@@ -19,5 +19,6 @@ $(document).ready(function(){
 });
 
 function loadTest() {
-	document.getElementById('testframe').contentWindow.document.write('#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi display "Hello World : "+(2*50)');
+	var iframe = $("#execute_simple_code");
+    iframe.attr("src", iframe.data("contributors.html"));
 }
