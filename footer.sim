@@ -2,30 +2,20 @@
 
 call "web/front/elements/Footer.sim" ? web.front.elements
 
-footer = new Footer
-footer.setStyleClass("footer") 
+footer = new Div("footer")
 
 #the social icons links
 #twitter
-twLink = new Link('<span class="label">Twitter</span>', "https://www.twitter.com/iamthecarisma") 
-twLink.setStyleClass("icon alt fa-twitter")
+tLi = new Link('<span class="label">Twitter</span>', "https://twitter.com/iamthecarisma") 
+tLi.setStyleClass("icon alt fa-twitter") tLi = new Li
 
 #facebook
 fbLink = new Link('<span class="label">Facebook</span>', "https://www.facebook.com/simpl-lang")
 fbLink.setStyleClass("icon alt fa-facebook")
 
-#the container un-orderd list
-ulFoot = new Ul
-liFoot = new Li liFoot.addHTML(fbLink.toString())
-ulFoot.addHTML(liFoot.toString())
-liFoot = new Li liFoot.addHTML(twLink.toString())
-ulFoot.addHTML(liFoot.toString())
-ulFoot.setStyleClass("icons")
 
-li = new Li li.addHTML("&copy; SIMPLE. All rights reserved.")
-ulCopy = new Ul ulCopy.addHTML(li.toString()) 
-li = new Li li.addHTML(" | Made with love from Nigeria")
-ulCopy.addHTML(li.toString()) 
-ulCopy.setStyleClass("copyright")
+ful = new Ul ful.setStyleClass("icons")
+
+#the container un-orderd list)
 
 footer.addHTML(ulFoot.toString())  footer.addHTML(ulCopy.toString())
