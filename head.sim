@@ -21,3 +21,4 @@ style2 = new HeadLink
 style2.setRel("stylesheet") style2.setType("text/css") style2.setLink("assets/css/custom.css")
 
 #THE HEADER
+header = new Header("header") header.setStyleClass("container")
