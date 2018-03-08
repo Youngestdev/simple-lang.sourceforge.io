@@ -2,6 +2,7 @@
 
 call "web/front/Webpage.sim" ? web.front
 call "web/front/elements/Head.sim" ? web.front.elements
+call "urls.sim"
 
 #an example meta data
 headMeta = new HeadMeta
@@ -23,6 +24,19 @@ style2.setRel("stylesheet") style2.setType("text/css") style2.setLink("assets/cs
 #THE HEADER
 headerWrapper = new Div("header-wrapper") 
 header = new Div("header") header.setStyleClass("container")
-logo = new H1("logo")
+logo = new H1("logo") logo.add(new Link("simple - home", indexUrl))
 
+#the menus
+nav = new Nav("nav")
+ul = new Ul()
+
+
+nav.add(ul)
+header.add([logo,nav])
 headerWrapper.add([header])
+
+
+
+
+
+
