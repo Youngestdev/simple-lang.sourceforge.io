@@ -4,6 +4,8 @@ call "web/front/Webpage.sim" ? web.front
 call "web/front/elements/Head.sim" ? web.front.elements
 call "urls.sim"
 
+locationUrl = indexUrl
+
 #an example meta data
 headMeta = new HeadMeta
 headMeta.setName("twitter:title") headMeta.setProperty("og:title") headMeta.setItemProp("title name")
@@ -49,7 +51,16 @@ contribute = new Li contribute.add(new Link("Contribute", contributeUrl))
 ul.add([docu,download,modules,environ,contributors,contribute])
 nav.add(ul)
 header.add([logo,nav])
-headerWrapper.add([header])
+
+if locationUrl == indexUrl {
+	landingSection = new Section("hero")
+	landingSection.setStyleClass("container")
+	headerWrapper.add([header,landingSection])
+ else 
+	headerWrapper.add([header])
+}
+
+
 
 
 
