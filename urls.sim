@@ -1,11 +1,15 @@
 
+#external links
+githubRepoUrl = "https://github.com/simple-lang/"
+#internal links
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
-licenceUrl = "LICENSE"
+licenceUrl = "./download/License.sim"
 documentationUrl = "./pages/documentation.sim"
 downloadUrl = "./download/"
 	windownloadUrl = "./download/windows.sim"
 	macdownloadUrl = "./download/mac.sim"
+	linuxdownloadUrl = "./download/linux/"
 	
 modulesUrl = "./modules/"
 environmentUrl = "./pages/environment.sim"
@@ -22,8 +26,10 @@ add(aboutList, new Link("Help", "google.com"))
 
 #download links in footer
 downloadList = []
+add(downloadList, new Link("Source Code", githubRepoUrl))
 add(downloadList, new Link("Windows", windownloadUrl))
 add(downloadList, new Link("MAC OS", macdownloadUrl))
+add(downloadList, new Link("Linux", linuxdownloadUrl))
 add(downloadList, new Link("Other Platforms", downloadUrl))
 add(downloadList, new Link("Build For Other Platforms", buildFromScratchUrl))
-add(downloadList, new Link("Licence", licenceUrl))
+add(downloadList, new Link("License", licenceUrl))

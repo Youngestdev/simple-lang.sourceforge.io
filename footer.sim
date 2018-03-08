@@ -9,7 +9,7 @@ footer = new Div("footer")
 tLin = new Link('<span class="label">Twitter</span>', "https://twitter.com/iamthecarisma") 
 tLin.setStyleClass("icon alt fa-twitter") tLi = new Li tLi.add(tLin)
 
-gLin = new Link('<span class="label">GitHub</span>', "https://github.com/simple-lang/") 
+gLin = new Link('<span class="label">GitHub</span>', githubRepoUrl) 
 gLin.setStyleClass("icon alt fa-github") gLi = new Li gLi.add(gLin)
 
 #facebook
