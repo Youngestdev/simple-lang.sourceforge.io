@@ -37,6 +37,7 @@ dul = new Ul
 windownload = new Li windownload.add(new Link("Windows", windownloadUrl)) 
 macdownload = new Li macdownload.add(new Link("MAC OS", macdownloadUrl)) 
 otherdownload = new Li otherdownload.add(new Link("Build For Other OS", buildFromScratchUrl)) 
+dul.add([windownload,macdownload,otherdownload])
 download.add(dul)
 #download tab end
 modules = new Li modules.add(new Link("Modules", modulesUrl)) 
