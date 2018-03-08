@@ -26,6 +26,7 @@ pageWrapper = new Div("page-wrapper")
 pageWrapper.add([headerWrapper])
 
 headerWebpage.addToBody(pageWrapper)
+headerWebpage.addFooter(footer)
 headerWebpage.addToBody('<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
