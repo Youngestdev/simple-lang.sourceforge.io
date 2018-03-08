@@ -11,3 +11,7 @@ environmentUrl = "./pages/environment.sim"
 contributorsUrl = "./pages/contributors.sim"
 contributeUrl = "./pages/contribute.sim"
 buildFromScratchUrl = "./pages/buildfromsource.sim"
+
+#about links in footer
+aboutList = []
+add(aboutList, new Link("Google", "google.com"))
