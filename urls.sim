@@ -7,6 +7,7 @@ indexUrl = "index.sim"
 licenceUrl = "./download/License.sim"
 documentationUrl = "./pages/documentation/"
 	syntaxSheetUrl = "./pages/documentation/syntaxsheet.sim"
+	docUrl = "./pages/documentation/doc.sim"
 	
 downloadUrl = "./download/"
 	windownloadUrl = "./download/windows.sim"
@@ -39,6 +40,11 @@ add(downloadList, new Link("License", licenceUrl))
 #documentation links in footer
 documentationList = []
 add(documentationList, new Link("Syntax Sheet", syntaxSheetUrl))
+add(documentationList, new Link("Docs", docUrl))
+
+#Examples links in footer
+examplesLink = []
+add(examplesLink, new Link("Hello World", helloWorldUrl))
 
 
 
