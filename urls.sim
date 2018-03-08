@@ -5,7 +5,9 @@ githubRepoUrl = "https://github.com/simple-lang/"
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
 licenceUrl = "./download/License.sim"
-documentationUrl = "./pages/documentation.sim"
+documentationUrl = "./pages/documentation/"
+	syntaxSheetUrl = "./pages/documentation/syntaxsheet.sim"
+	
 downloadUrl = "./download/"
 	windownloadUrl = "./download/windows.sim"
 	macdownloadUrl = "./download/mac.sim"
@@ -33,3 +35,10 @@ add(downloadList, new Link("Linux", linuxdownloadUrl))
 add(downloadList, new Link("Other Platforms", downloadUrl))
 add(downloadList, new Link("Build For Other Platforms", buildFromScratchUrl))
 add(downloadList, new Link("License", licenceUrl))
+
+#documentation links in footer
+documentationList = []
+add(documentationList, new Link("Syntax Sheet", syntaxSheetUrl))
+
+
+

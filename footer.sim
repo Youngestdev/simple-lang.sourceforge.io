@@ -33,6 +33,11 @@ downloadUl = new Ul downloadUl.addHTML('<span>Download</span>')
 for a  = 0 to lengthOf(downloadList)
 	downloadUl.addHTML('<li>'+downloadList[a].toString()+'</li>')
 end
-footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+'
+documentationUl = new Ul documentationUl.addHTML('<span>Documentation</span>')
+for a  = 0 to lengthOf(documentationList)
+	documentationUl.addHTML('<li>'+documentationList[a].toString()+'</li>')
+end
+footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+'
+	'+documentationUl.toString()+aboutUl.toString()+aboutUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 
