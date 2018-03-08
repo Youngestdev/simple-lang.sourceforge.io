@@ -1,6 +1,7 @@
 
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
+licenceUrl = "LICENSE"
 documentationUrl = "./pages/documentation.sim"
 downloadUrl = "./download/"
 	windownloadUrl = "./download/windows.sim"
@@ -23,3 +24,6 @@ add(aboutList, new Link("Help", "google.com"))
 downloadList = []
 add(downloadList, new Link("Windows", windownloadUrl))
 add(downloadList, new Link("MAC OS", macdownloadUrl))
+add(downloadList, new Link("Other Platforms", downloadUrl))
+add(downloadList, new Link("Build For Other Platforms", buildFromScratchUrl))
+add(downloadList, new Link("Licence", licenceUrl))
