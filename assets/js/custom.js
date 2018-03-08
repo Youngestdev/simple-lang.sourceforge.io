@@ -1,10 +1,10 @@
  
 $(document).ready(function(){
 
-	buttonClicks();
-  // Hide div 2 by default
-  $('#try_online_shell').hide();
-	
+	buttonClicks(); 
+	$('#try_online_shell').hide();
+	$("#introduction > div:gt(0)").hide();
+	slideShow();
   
 });
 
@@ -27,4 +27,15 @@ function buttonClicks() {
 
 function executeCGICode(code) {
 	$("#execute_simple_code").attr('src', 'execute_code.sim?'+code);
+}
+
+function slideShow() {
+	setInterval(function() {
+	  $('#introduction > div:first')
+		.fadeOut(1000)
+		.next()
+		.fadeIn(1000)
+		.end()
+		.appendTo('#slideshow');
+	}, 3000);
 }

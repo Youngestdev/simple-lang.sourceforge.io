@@ -58,12 +58,19 @@ if locationUrl == indexUrl {
 	landingSection = new Section("hero")
 	landingSection.setStyleClass("container")
 	landingSection.addStyle("margin-top:-5%;")
-	landingSection.addHTML('<div id="introduction"><header>
+	landingSection.addHTML('<div id="introduction">
+	<div >
+	<header>
 		<h2> SIMPLE 
 		<br />
 		<span >Simple Intelligent and Modular Programming Language and Environment</span></h2>
 	</header>
-	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p></div>
+	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p>
+	</div>
+	<div> 
+	<img src="./images/repl.jpg">
+	</div>
+	</div>
 	<div id="try_online_shell" >
 	<span> Enter Your Code </span>
 	<textarea id="code_to_execute" style="height:150px;width:100%;background:white;border:solid 3px black;color:black;"></textarea>
