@@ -68,7 +68,13 @@ if locationUrl == indexUrl {
 	<p>SIMPLE is a <strong>plain</strong> and <strong>innovative</strong> programming with multi-paradigm. The language is portable to various OS including windows, macOS, linux, unix distros and other OS. The language is small and fast.</p> 
 	</div>
 	<div> <img src="./images/repl.png"> </div>
-	<div> <img src="./images/universal_prices_about.png"> </div>
+	<div> 
+	<img src="./images/universal_prices_about.png"> 
+	<div>
+	jhjhjdshjshfjhfdufnuiuiguirnugiguiuginrguignrigng uguyrgu
+	<div>
+	<div></div>
+	</div>
 	</div>
 	<div id="try_online_shell" >
 	<span> Enter Your Code </span>
