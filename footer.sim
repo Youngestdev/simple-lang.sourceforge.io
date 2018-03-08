@@ -6,16 +6,20 @@ footer = new Div("footer")
 
 #the social icons links
 #twitter
-tLi = new Link('<span class="label">Twitter</span>', "https://twitter.com/iamthecarisma") 
-tLi.setStyleClass("icon alt fa-twitter") tLi = new Li
+tLin = new Link('<span class="label">Twitter</span>', "https://twitter.com/iamthecarisma") 
+tLin.setStyleClass("icon alt fa-twitter") tLi = new Li tLi.add(tLin)
+
+gLin = new Link('<span class="label">GitHub</span>', "https://github.com/simple-lang/") 
+gLin.setStyleClass("icon alt fa-github") gLi = new Li gLi.add(gLin)
 
 #facebook
-fbLink = new Link('<span class="label">Facebook</span>', "https://www.facebook.com/simpl-lang")
-fbLink.setStyleClass("icon alt fa-facebook")
+fLin = new Link('<span class="label">Facebook</span>', "https://www.facebook.com/simpl-lang")
+fLin.setStyleClass("icon alt fa-facebook") fLi = new Li fLi.add(fLin)
 
 
 ful = new Ul ful.setStyleClass("icons")
+ful.add([tLi,gLi,fLi])
 
-#the container un-orderd list)
+#the copyright
 
-footer.addHTML(ulFoot.toString())  footer.addHTML(ulCopy.toString())
+footer.addHTML(ful.toString()) 
