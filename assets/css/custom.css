@@ -29,9 +29,15 @@
 }
 
 #introduction > div > div { 
-	width : 50% ;
+	width : 48.5% ;
 	float:right;
+	height : 400px ;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#try_online_shell {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	padding: 10px;
 }
 
 /** FOOTER **/
