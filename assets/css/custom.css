@@ -42,6 +42,10 @@
 
 /** FOOTER **/
 
+#footer .copyright {
+	color : white ;
+}
+
 #footer .icons li {
 	display: inline-block;
 	height: 3.5em;
@@ -54,10 +58,9 @@
 }
 
 #footer-sitemap {
-	border: solid 1px white;
-	border-radius : 4px ;
 	display: flex;
 	color : white ;
+	flex-wrap: wrap;
 }
 
 #footer-sitemap ul li {
