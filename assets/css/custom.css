@@ -5,6 +5,11 @@
 	/** background:blue; **/
 }
 
+.selected-menu {
+	border: solid 1px white;
+	border-radius : 4px ;
+}
+
 /** HOME **/
 #introduction {
 	margin: 0px 0px 0px -10px;

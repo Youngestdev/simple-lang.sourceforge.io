@@ -48,6 +48,12 @@ environ.setStyleClass("break")
 contributors = new Li contributors.add(new Link("Contributors", contributorsUrl)) 
 contribute = new Li contribute.add(new Link("Contribute", contributeUrl)) 
 
+if locationUrl == 1 
+	contributors.setStyleClass("selected-menu")
+elif (false)
+
+end
+	
 ul.add([docu,download,modules,environ,contributors,contribute])
 nav.add(ul)
 header.add([logo,nav])
