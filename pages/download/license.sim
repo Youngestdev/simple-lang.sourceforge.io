@@ -28,7 +28,15 @@ webpage.setHead(head)
 pageWrapper = new Div("page-wrapper")
 pageWrapper.add([headerWrapper])
 
-#licence content
+#contributor content
+cdiv = new Div("main") cdiv.setStyleClass("container")
+article = new Article("content") he = new Header he.addHTML('<h2>LICENSE</h2>
+<p></p>')
+contBox = new Div contBox.setStyleClass("box alt")
+contBox.addHTML('<script src="http://gist-it.appspot.com/http://github.com/$file"></script>')
+article.add([he,contBox]) cdiv.add(article)
+d1 = new Div d1.setStyleClass("wrapper") d1.add(cdiv) 
+pageWrapper.add(d1)
 
 webpage.setBodyClass("no-sidebar")
 webpage.addToBody(pageWrapper)
