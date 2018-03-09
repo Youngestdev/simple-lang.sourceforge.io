@@ -94,7 +94,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	background:red;
-	width:100%;
 }
 
 .wrapper #main {
