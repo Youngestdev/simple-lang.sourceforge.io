@@ -1,6 +1,11 @@
 
 #external links
 githubRepoUrl = "https://github.com/simple-lang/"
+simpleGithubRepoUrl = githubRepoUrl+"simple" 
+twitterUrl = "https://twitter.com/iamthecarisma"
+facebookUrl = "https://www.facebook.com/simpl-lang"
+slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzNTQyLWYyNDg5ZmQ0NzBhNjYzMzZhZmYwZjcxNjNkYjA4YTE3ODEwMjM4ZTUwMmFkYjMzMTgzYmRkNmQ2NjdmZjA2ZjM"
+
 #internal links
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
@@ -39,7 +44,7 @@ add(aboutList, new Link("Help", "google.com"))
 
 #download links in footer
 downloadList = []
-add(downloadList, new Link("Source Code", githubRepoUrl))
+add(downloadList, new Link("Source Code", simpleGithubRepoUrl))
 add(downloadList, new Link("Windows", windownloadUrl))
 add(downloadList, new Link("MAC OS", macdownloadUrl))
 add(downloadList, new Link("Linux", linuxdownloadUrl))
@@ -65,7 +70,10 @@ add(examplesList, new Link("Internet and Parser", internetParserExampleUrl))
 
 #community links in footer
 communityList = []
-add(communityList, new Link("Hello World", helloWorldUrl))
+add(communityList, new Link("Github", githubRepoUrl))
+add(communityList, new Link("Twitter", twitterUrl))
+add(communityList, new Link("Facebook", facebookUrl))
+add(communityList, new Link("Slack", slackUrl))
 
 
 

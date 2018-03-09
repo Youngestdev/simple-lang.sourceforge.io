@@ -6,14 +6,14 @@ footer = new Div("footer")
 
 #the social icons links
 #twitter
-tLin = new Link('<span class="label">Twitter</span>', "https://twitter.com/iamthecarisma") 
+tLin = new Link('<span class="label">Twitter</span>', twitterUrl) 
 tLin.setStyleClass("icon alt fa-twitter") tLi = new Li tLi.add(tLin)
 
 gLin = new Link('<span class="label">GitHub</span>', githubRepoUrl) 
 gLin.setStyleClass("icon alt fa-github") gLi = new Li gLi.add(gLin)
 
 #facebook
-fLin = new Link('<span class="label">Facebook</span>', "https://www.facebook.com/simpl-lang")
+fLin = new Link('<span class="label">Facebook</span>', facebookUrl)
 fLin.setStyleClass("icon alt fa-facebook") fLi = new Li fLi.add(fLin)
 
 
@@ -41,7 +41,11 @@ examplesUl = new Ul examplesUl.addHTML('<span>Examples</span>')
 for a  = 0 to lengthOf(examplesList)
 	examplesUl.addHTML('<li>'+examplesList[a].toString()+'</li>')
 end
+communityUl = new Ul communityUl.addHTML('<span>Community</span>')
+for a  = 0 to lengthOf(communityList)
+	communityUl.addHTML('<li>'+communityList[a].toString()+'</li>')
+end
 footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+'
-	'+documentationUl.toString()+examplesUl.toString()+aboutUl.toString()+aboutUl.toString()+aboutUl.toString()+'
+	'+documentationUl.toString()+examplesUl.toString()+communityUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 
