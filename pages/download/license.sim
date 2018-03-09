@@ -16,7 +16,7 @@ call "../../footer.sim"
 webpage = new Webpage() head = new Head
 
 #styling the head
-head.setTitle("Contributors | SIMPLE") #set title
+head.setTitle("License | SIMPLE") #set title
 head.setIcon(url+"favicon.ico") 
 
 #add all meta data link and add script if needed : declared in head.sim
@@ -30,8 +30,8 @@ pageWrapper.add([headerWrapper])
 
 #contributor content
 cdiv = new Div("main") cdiv.setStyleClass("container")
-article = new Article("content") he = new Header he.addHTML('<h2>LICENSE</h2>
-<p></p>')
+article = new Article("content") he = new Header he.addHTML('<h2>MIT LICENSE</h2>
+<p>The Programming Language is released under the MIT license which is a A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.</p>')
 contBox = new Div contBox.setStyleClass("box alt")
 contBox.addHTML('<script src="https://gist-it.appspot.com/https://github.com/simple-lang/simple/blob/master/LICENSE"></script>')
 article.add([he,contBox]) cdiv.add(article)
