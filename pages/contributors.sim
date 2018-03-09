@@ -13,7 +13,7 @@ call "../head.sim"
 call "../footer.sim"
 
 #>>> HEAD and HEADER 
-headerWebpage = new Webpage() head = new Head
+webpage = new Webpage() head = new Head
 
 #styling the head
 head.setTitle("Contributors | SIMPLE") #set title
@@ -23,19 +23,20 @@ head.setIcon(url+"favicon.ico")
 head.addMeta(headMeta4) 
 head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
 #end head styling 
-headerWebpage.setHead(head)
+webpage.setHead(head)
 #
 pageWrapper = new Div("page-wrapper")
 pageWrapper.add([headerWrapper])
 
-headerWebpage.addToBody(pageWrapper)
-headerWebpage.addFooter(footer)
-headerWebpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
+webpage.setBodyClass("no-sidebar")
+webpage.addToBody(pageWrapper)
+webpage.addFooter(footer)
+webpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
 			<script src="'+url+'assets/js/jquery.dropotron.min.js"></script>
 			<script src="'+url+'assets/js/skel.min.js"></script>
 			<script src="'+url+'assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="'+url+'assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="'+url+'assets/js/main.js"></script>
 			<script src="'+url+'assets/js/custom.js"></script>')
-headerWebpage.render() 
+webpage.render() 
 #<< HEAD and HEADER end

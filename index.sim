@@ -28,6 +28,7 @@ headerWebpage.setHead(head)
 pageWrapper = new Div("page-wrapper")
 pageWrapper.add([headerWrapper])
 
+headerWebpage.setBodyClass("homepage")
 headerWebpage.addToBody(pageWrapper)
 headerWebpage.addFooter(footer)
 headerWebpage.addToBody('<script src="assets/js/jquery.min.js"></script>
