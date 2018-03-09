@@ -2,7 +2,7 @@
 
 call "web/front/Webpage.sim" ? web.front
 call "web/front/elements/Head.sim" ? web.front.elements
-call "urls.sim"
+call "misc/urls.sim"
 
 locationUrl = indexUrl
 

@@ -5,6 +5,7 @@ simpleGithubRepoUrl = githubRepoUrl+"simple"
 twitterUrl = "https://twitter.com/iamthecarisma"
 facebookUrl = "https://www.facebook.com/simpl-lang"
 slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzNTQyLWYyNDg5ZmQ0NzBhNjYzMzZhZmYwZjcxNjNkYjA4YTE3ODEwMjM4ZTUwMmFkYjMzMTgzYmRkNmQ2NjdmZjA2ZjM"
+pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
 
 #internal links
 url = "localhost/simple-lang.sourceforge.io/"
@@ -77,8 +78,9 @@ add(communityList, new Link("Facebook", facebookUrl))
 add(communityList, new Link("Slack", slackUrl))
 
 #contributing links in footer
-contributingUl = []
-add(contributingUl, new Link("Issue Tracker", issueTrackerUrl))
+contributingList = []
+add(contributingList, new Link("Issue Tracker", issueTrackerUrl))
+add(contributingList, new Link("Make Pull Request", pullRequestUrl))
 
 
 

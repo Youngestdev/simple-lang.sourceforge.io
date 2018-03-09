@@ -45,7 +45,7 @@ communityUl = new Ul communityUl.addHTML('<span>Community</span>')
 for a  = 0 to lengthOf(communityList)
 	communityUl.addHTML('<li>'+communityList[a].toString()+'</li>')
 end
-contributingUl = new Ul contributingUl.addHTML('<span>Community</span>')
+contributingUl = new Ul contributingUl.addHTML('<span>Contributing</span>')
 for a  = 0 to lengthOf(contributingList)
 	contributingUl.addHTML('<li>'+contributingList[a].toString()+'</li>')
 end
