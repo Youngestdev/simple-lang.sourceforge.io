@@ -8,7 +8,7 @@ slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzN
 pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
 
 #internal links
-url = "localhost/simple-lang.sourceforge.io/"
+url = "http://localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
 licenceUrl = "./download/License.sim"
 issueTrackerUrl = "" "./pages/issuetracker.sim"
