@@ -59,18 +59,21 @@
 }
 
 #footer-sitemap {
-	@include columns(15em);
-	@include column-gap(1em);
+	color : white ;
+	margin:1%;
+	position:relative;
+	-moz-columns: 15em;
+  -webkit-columns: 15em;
+  columns: 15em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
 }
 
 #footer-sitemap ul {
-	-webkit-column-break-inside: avoid;
-  page-break-inside: avoid; /* Firefox is dumb */
-  break-inside: avoid;
-  @include border-radius(.5em);
-  margin: 1em 0;
-  background-color: #CCC;
-  padding: .5em;
+	margin-bottom: 0px;
+	text-decoration: none;
+	width:310px;
 }
 
 #footer-sitemap ul li a:hover {
