@@ -90,6 +90,13 @@
 
 /** CONTRIBUTORS PAGE **/
 
+#contibutor-panel {
+	display: flex;
+	flex-wrap: wrap;
+	background:red;
+	width:100%;
+}
+
 .wrapper #main {
 	margin-top:-7%;
 	text-align:center;
