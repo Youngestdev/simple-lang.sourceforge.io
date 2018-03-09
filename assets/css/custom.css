@@ -60,9 +60,10 @@
 #footer-sitemap {
 	display: flex;
 	color : white ;
+	flex-wrap: wrap;
 	margin:1%;
 	position:relative;
-	align-items:flex-start;
+	flex-direction: column;
 }
 
 #footer-sitemap ul {
