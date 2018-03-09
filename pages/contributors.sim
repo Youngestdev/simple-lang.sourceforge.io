@@ -6,6 +6,9 @@ call "web/front/Webpage.sim"
 call "web/front/Script.sim" ? web.front
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Head.sim" ? web.front.elements
+
+locationUrl = 1
+
 call "../head.sim"
 call "../footer.sim"
 
@@ -27,7 +30,7 @@ pageWrapper.add([headerWrapper])
 
 headerWebpage.addToBody(pageWrapper)
 headerWebpage.addFooter(footer)
-headerWebpage.addToBody('<script src="assets/js/jquery.min.js"></script>
+headerWebpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
 			<script src="'+url+'assets/js/jquery.dropotron.min.js"></script>
 			<script src="'+url+'assets/js/skel.min.js"></script>
 			<script src="'+url+'assets/js/util.js"></script>

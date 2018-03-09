@@ -6,6 +6,9 @@ call "web/front/Webpage.sim"
 call "web/front/Script.sim" ? web.front
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Head.sim" ? web.front.elements
+
+locationUrl = 0
+
 call "head.sim"
 call "footer.sim"
 

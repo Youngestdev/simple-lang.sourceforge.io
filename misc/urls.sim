@@ -9,7 +9,7 @@ pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
 
 #internal links
 url = "http://localhost/simple-lang.sourceforge.io/"
-indexUrl = "index.sim"
+indexUrl = "http://localhost/simple-lang.sourceforge.io/index.sim"
 licenceUrl = "./download/License.sim"
 issueTrackerUrl = "" "./pages/issuetracker.sim"
 documentationUrl = "./pages/documentation/"

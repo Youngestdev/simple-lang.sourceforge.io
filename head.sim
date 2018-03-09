@@ -4,11 +4,6 @@ call "web/front/Webpage.sim" ? web.front
 call "web/front/elements/Head.sim" ? web.front.elements
 call "misc/urls.sim"
 
-indexPage = 0
-contributorPager = 1
-
-locationUrl = indexPage
-
 #an example meta data
 headMeta = new HeadMeta
 headMeta.setName("twitter:title") headMeta.setProperty("og:title") headMeta.setItemProp("title name")
@@ -57,7 +52,7 @@ ul.add([docu,download,modules,environ,contributors,contribute])
 nav.add(ul)
 header.add([logo,nav])
 
-if locationUrl == indexPage {
+if locationUrl == 0 {
 	landingSection = new Section("hero")
 	landingSection.setStyleClass("container")
 	landingSection.addStyle("margin-top:-5%;")
