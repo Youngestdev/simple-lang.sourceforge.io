@@ -6,6 +6,7 @@ twitterUrl = "https://twitter.com/iamthecarisma"
 facebookUrl = "https://www.facebook.com/simpl-lang"
 slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzNTQyLWYyNDg5ZmQ0NzBhNjYzMzZhZmYwZjcxNjNkYjA4YTE3ODEwMjM4ZTUwMmFkYjMzMTgzYmRkNmQ2NjdmZjA2ZjM"
 pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
+websiteRepoUrl = "https://github.com/simple-lang/simple-lang.sourceforge.io" 
 
 #internal links
 url = "http://localhost/simple-lang.sourceforge.io/"
@@ -82,6 +83,7 @@ add(communityList, new Link("Slack", slackUrl))
 contributingList = []
 add(contributingList, new Link("Issue Tracker", issueTrackerUrl))
 add(contributingList, new Link("Make Pull Request", pullRequestUrl))
+add(contributingList, new Link("Website Source", websiteRepoUrl))
 
 
 
