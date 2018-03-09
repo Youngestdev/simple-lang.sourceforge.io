@@ -1,23 +1,28 @@
+call "../misc/urls.sim"
+
 
 contributorsList = []
+add(contributorsList, new Contributor(imageUrl+"contributors/thecarisma.jpg", "Azeez Adewale", "Author", "Dont't let talk about him"))
 
 class Contributor 
 
 	about = ""
 	name = ""
 	image = ""
+	position = ""
 
-	block Contributor(iimage,iname,iabout)
+	block Contributor(iimage,iname,iposition,iabout)
 		about = iabout
 		image = iimage
 		name = iname
+		position = iposition
 		
 	block toString()
 		value = '<div class="row uniform">
 		<section class="4u 6u(medium) 12u$(xsmall)">
-		<img src="./images/thecarisma.jpg" alt="" class="icon alt major"/>
-			<h3>Azeez Adewale</h3>
-			<p>Author <br/>Don't let talk about him</p>
+		<img src="'+image+'" alt="" class="icon alt major"/>
+			<h3>'+name+'</h3>
+			<p>'+position+'<br/>'+about+'</p>
 		</section>
 		'
 		return value
