@@ -2,7 +2,11 @@ call "../misc/urls.sim"
 
 
 contributorsList = []
-add(contributorsList, new Contributor(imageUrl+"contributors/thecarisma.jpg", "Azeez Adewale", "Author", "Dont't let talk about him"))
+
+c1 = new Contributor(imageUrl+"contributors/thecarisma.jpg", "Azeez Adewale", "Author", "Dont't let talk about him")
+c1.github("https://github.com/Thecarisma") c1.email("azeezadewale98@gmail.com") 
+c1.twitter("https://twitter.com/iamthecarisma")
+add(contributorsList, )
 
 class Contributor 
 
@@ -10,12 +14,24 @@ class Contributor
 	name = ""
 	image = ""
 	position = ""
+	githubLink = ""
+	twitterLink = ""
+	emailLink = ""
 
 	block Contributor(iimage,iname,iposition,iabout)
 		about = iabout
 		image = iimage
 		name = iname
 		position = iposition
+		
+	block github(link)
+		githubLink = '<li><a href="'+link+'" class="icon alt fa-github"><span class="label">Github</span></a></li>'
+	
+	block twitter(link)
+		twitterLink = '<li><a href="'+link+'" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>'
+	
+	block email(link)
+		emailLink = '<li><a href="'+link+'" class="icon alt fa-envelope"><span class="label">Email</span></a></li>'
 		
 	block toString()
 		value = '<div class="row uniform">
