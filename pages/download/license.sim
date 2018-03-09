@@ -7,7 +7,7 @@ call "web/front/Script.sim" ? web.front
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Head.sim" ? web.front.elements
 
-locationUrl = 1
+locationUrl = -1
 
 call "../../head.sim"
 call "../../footer.sim"
