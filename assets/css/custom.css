@@ -60,20 +60,20 @@
 
 #footer-sitemap {
 	color : white ;
-	margin:1%;
+	margin-bottom:1%;
 	position:relative;
-	-moz-columns: 15em;
-  -webkit-columns: 15em;
-  columns: 15em;
-  -moz-column-gap: 1em;
-  -webkit-column-gap: 1em;
-  column-gap: 1em;
+	display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 #footer-sitemap ul {
-	margin-bottom: 0px;
+	margin-bottom: 5%;
 	text-decoration: none;
 	width:310px;
+	flex: 1 auto;
+	  padding: 10px;
+	  border: 1px solid red;
 }
 
 #footer-sitemap ul li a:hover {
