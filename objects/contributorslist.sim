@@ -4,9 +4,9 @@ call "../misc/urls.sim"
 contributorsList = []
 
 c1 = new Contributor(imageUrl+"contributors/thecarisma.jpg", "Azeez Adewale", "Author", "Dont't let talk about him")
-c1.github("https://github.com/Thecarisma") c1.email("azeezadewale98@gmail.com") 
+#c1.github("https://github.com/Thecarisma") #c1.email("azeezadewale98@gmail.com") 
 c1.twitter("https://twitter.com/iamthecarisma")
-add(contributorsList, )
+add(contributorsList, c1)
 
 class Contributor 
 
@@ -17,6 +17,7 @@ class Contributor
 	githubLink = ""
 	twitterLink = ""
 	emailLink = ""
+	hasProfile = false
 
 	block Contributor(iimage,iname,iposition,iabout)
 		about = iabout
@@ -26,12 +27,15 @@ class Contributor
 		
 	block github(link)
 		githubLink = '<li><a href="'+link+'" class="icon alt fa-github"><span class="label">Github</span></a></li>'
+		hasProfile = true
 	
 	block twitter(link)
 		twitterLink = '<li><a href="'+link+'" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>'
+		hasProfile = true
 	
 	block email(link)
-		emailLink = '<li><a href="'+link+'" class="icon alt fa-envelope"><span class="label">Email</span></a></li>'
+		emailLink = '<li><a href="mailto:'+link+'" class="icon alt fa-envelope"><span class="label">Email</span></a></li>'
+		hasProfile = true
 		
 	block toString()
 		value = '<div class="row uniform">
@@ -39,6 +43,21 @@ class Contributor
 		<img src="'+image+'" alt="" class="icon alt major"/>
 			<h3>'+name+'</h3>
 			<p>'+position+'<br/>'+about+'</p>
-		</section>
 		'
+		if hasProfile 
+			value += '<div id="contributor-profiles">
+			<ul class="profiles">'
+			if twitterLink != ""
+				value += twitterLink
+			end
+			if githubLink != ""
+				value += githubLink
+			end
+			if emailLink != ""
+				value += emailLink
+			end
+			value += '</ul></div>'
+		end
+		value += '</section>
+		</div>'
 		return value
