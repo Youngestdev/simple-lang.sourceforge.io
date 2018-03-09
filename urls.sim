@@ -10,6 +10,7 @@ slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzN
 url = "localhost/simple-lang.sourceforge.io/"
 indexUrl = "index.sim"
 licenceUrl = "./download/License.sim"
+issueTrackerUrl = "" "./pages/issuetracker.sim"
 documentationUrl = "./pages/documentation/"
 	syntaxSheetUrl = "./pages/documentation/syntaxsheet.sim"
 	docUrl = "./pages/documentation/doc.sim"
@@ -74,6 +75,10 @@ add(communityList, new Link("Github", githubRepoUrl))
 add(communityList, new Link("Twitter", twitterUrl))
 add(communityList, new Link("Facebook", facebookUrl))
 add(communityList, new Link("Slack", slackUrl))
+
+#contributing links in footer
+contributingUl = []
+add(contributingUl, new Link("Issue Tracker", issueTrackerUrl))
 
 
 

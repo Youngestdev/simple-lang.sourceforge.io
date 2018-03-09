@@ -45,7 +45,11 @@ communityUl = new Ul communityUl.addHTML('<span>Community</span>')
 for a  = 0 to lengthOf(communityList)
 	communityUl.addHTML('<li>'+communityList[a].toString()+'</li>')
 end
+contributingUl = new Ul contributingUl.addHTML('<span>Community</span>')
+for a  = 0 to lengthOf(contributingList)
+	contributingUl.addHTML('<li>'+contributingList[a].toString()+'</li>')
+end
 footer.addHTML('<div id="footer-sitemap">'+aboutUl.toString()+downloadUl.toString()+'
-	'+documentationUl.toString()+examplesUl.toString()+communityUl.toString()+'
+	'+documentationUl.toString()+examplesUl.toString()+communityUl.toString()+contributingUl.toString()+'
 	</div>')
 footer.add([ful,cul]) 
