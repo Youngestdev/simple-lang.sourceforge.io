@@ -44,8 +44,7 @@ class Contributor
 		hasProfile = true
 		
 	block toString()
-		value = '<div class="row uniform">
-		<section class="4u 6u(medium) 12u$(xsmall)">
+		value = '<section class="4u 6u(medium) 12u$(xsmall)">
 		<img src="'+image+'" alt="" class="icon alt major"/>
 			<h3>'+name+'</h3>
 			<p>'+position+'<br/>'+about+'</p>
@@ -64,6 +63,5 @@ class Contributor
 			end
 			value += '</ul></div>'
 		end
-		value += '</section>
-		</div>'
+		value += '</section>'
 		return value
