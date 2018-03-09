@@ -1,3 +1,4 @@
+@import "compass/css3"
 
 /** CUSTOM CSS **/
 
@@ -58,18 +59,18 @@
 }
 
 #footer-sitemap {
-	display: flex;
-	color : white ;
-	flex-wrap: wrap;
-	margin:1%;
-	position:relative;
-	flex-direction: column;
+	@include columns(15em);
+	@include column-gap(1em);
 }
 
 #footer-sitemap ul {
-	margin-bottom: 0px;
-	text-decoration: none;
-	width:310px;
+	-webkit-column-break-inside: avoid;
+  page-break-inside: avoid; /* Firefox is dumb */
+  break-inside: avoid;
+  @include border-radius(.5em);
+  margin: 1em 0;
+  background-color: #CCC;
+  padding: .5em;
 }
 
 #footer-sitemap ul li a:hover {
