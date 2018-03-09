@@ -1,0 +1,23 @@
+
+contributorsList = []
+
+class Contributor 
+
+	about = ""
+	name = ""
+	image = ""
+
+	block Contributor(iimage,iname,iabout)
+		about = iabout
+		image = iimage
+		name = iname
+		
+	block toString()
+		value = '<div class="row uniform">
+		<section class="4u 6u(medium) 12u$(xsmall)">
+		<img src="./images/thecarisma.jpg" alt="" class="icon alt major"/>
+			<h3>Azeez Adewale</h3>
+			<p>Author <br/>Don't let talk about him</p>
+		</section>
+		'
+		return value

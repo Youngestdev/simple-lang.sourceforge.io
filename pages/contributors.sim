@@ -6,6 +6,7 @@ call "web/front/Webpage.sim"
 call "web/front/Script.sim" ? web.front
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Head.sim" ? web.front.elements
+call "../objects/contributorslist.sim"
 
 locationUrl = 1
 
