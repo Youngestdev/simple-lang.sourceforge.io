@@ -26,6 +26,9 @@ examplesUrl = "./pages/examples/"
 	coreModulesExampleUrl = examplesUrl+"core_modules.sim"
 	guiExampleUrl = examplesUrl+"gui.sim"
 	intermediateExampleUrl = examplesUrl+"intermediate.sim"
+	basicExampleUrl = examplesUrl+"basic.sim"
+	advanceExampleUrl = examplesUrl+"advance.sim"
+	internetParserExampleUrl = examplesUrl+"internet_parser.sim"
 
 #about links in footer
 aboutList = []
@@ -53,12 +56,16 @@ add(documentationList, new Link("Docs", docUrl))
 examplesList = []
 add(examplesList, new Link("Hello World", helloWorldUrl))
 add(examplesList, new Link("Syntax", syntaxExampleUrl))
+add(examplesList, new Link("Basic", basicExampleUrl))
 add(examplesList, new Link("Core Modules", coreModulesExampleUrl))
 add(examplesList, new Link("GUI/Fulltick", guiExampleUrl))
 add(examplesList, new Link("Intermediate", intermediateExampleUrl))
-add(examplesList, new Link("Module", fileUrl))
-add(examplesList, new Link("Switch", fileUrl))
-add(examplesList, new Link("Try..Catch..End", fileUrl))
+add(examplesList, new Link("Advanced", advanceExampleUrl))
+add(examplesList, new Link("Internet and Parser", internetParserExampleUrl))
+
+#community links in footer
+communityList = []
+add(communityList, new Link("Hello World", helloWorldUrl))
 
 
 
