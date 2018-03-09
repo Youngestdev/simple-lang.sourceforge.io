@@ -62,15 +62,14 @@
 	color : white ;
 	flex-wrap: wrap;
 	margin:1%;
+	margin-bottom: 50px;
 	position:relative;
 	align-items: flex-start;
 }
 
 #footer-sitemap ul {
-	margin-bottom: 0px;
 	text-decoration: none;
 	width:310px;
-	border: solid 1px white;
 }
 
 #footer-sitemap ul li a:hover {
