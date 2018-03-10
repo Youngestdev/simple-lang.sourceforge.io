@@ -1,4 +1,3 @@
-#!/usr/home/project-web/simple-lang/cgi-bin/simple -cgi
 
 call "web/style/StyleAttributes.sim" 
 call "web/style/StyleColor.sim" ? web.style
