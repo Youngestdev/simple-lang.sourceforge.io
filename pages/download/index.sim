@@ -30,7 +30,15 @@ pageWrapper.add([headerWrapper])
 
 #the sidebar
 sideDiv = new Div sideDiv.setStyleClass("4u 12u(narrower)")
-sideSection = new Section("sidebar") sideDiv.add(sideSection)
+sideSection0 = new Section
+sul = new Ul ul.setStyleClass("actions")
+#add all the sidebar
+x1 = new Link("Download Versions", "") x1.setStyleClass("button")
+x2 = new Link("Release Shedules", "") x2.setStyleClass("button")
+x3 = new Link("Download Versions", "") x3.setStyleClass("button")
+sul.add([x1,x2,x3])
+sideSection = new Section("sidebar")  sideSection.add(sul)
+sideSection.add(sideSection0) sideDiv.add(sideSection)
 
 #articles/content panel
 contentDiv = new Div contentDiv.setStyleClass("8u 12u(narrower) important(narrower)")
