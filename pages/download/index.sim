@@ -44,9 +44,14 @@ sideSection.add(sideSection0) sideDiv.add(sideSection)
 
 #articles/content panel
 contentDiv = new Div contentDiv.setStyleClass("8u 12u(narrower) important(narrower)")
-contentDiv.addHTML('<iframe id="versions_table" style="height:150px;width:100%;background:white;border:solid 3px black;">
+contentDiv.addHTML('<article id="versions">
+				<header>
+					<h2>Features</h2>
+				</header>
+				<p><iframe id="versions_table" style="height:50%;width:100%;background:white;border:solid 3px black;">
 	
-	</iframe>')
+	</iframe></p>
+			</article')
 
 #add to parent
 dd = new Div dd.setStyleClass("row 150%") dd.add([sideDiv,contentDiv])
