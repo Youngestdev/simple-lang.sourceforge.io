@@ -50,8 +50,8 @@ contribute = new Li contribute.add(new Link("Contribute", contributeUrl))
 
 if locationUrl == 1 
 	contributors.setStyleClass("selected-menu")
-elif (false)
-
+elif locationUrl == 2 
+	download.setStyleClass("selected-menu")
 end
 	
 ul.add([docu,download,modules,environ,contributors,contribute])
