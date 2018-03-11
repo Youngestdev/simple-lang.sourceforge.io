@@ -46,9 +46,9 @@ sideSection.add(sideSection0) sideDiv.add(sideSection)
 contentDiv = new Div contentDiv.setStyleClass("8u 12u(narrower) important(narrower)")
 contentDiv.addHTML('<article id="download_versions">
 				<header>
-					<h2>Features</h2>
+					<h2>Download By Versions</h2>
 				</header>
-				<p><iframe id="versions_table" style="height:50%;width:100%;background:white;border:solid 3px #257591;">
+				<p><iframe id="versions_table" style="height:50%;width:100%;background:white;border:solid 3px #2c93b7;">
 	
 	</iframe></p>
 			</article')
