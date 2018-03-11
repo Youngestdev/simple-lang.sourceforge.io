@@ -255,6 +255,7 @@ literal-keyword {
 
 			table.alt thead {
 				border-bottom: 0;
+				color:red;
 			}
 
 			table.alt tfoot {

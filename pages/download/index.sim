@@ -49,7 +49,7 @@ contentDiv.addHTML('<article id="download_versions">
 					<h2>Download By Versions</h2>
 				</header>
 				<p><div class="table-wrapper">
-											<table >
+											<table class="alt">
 												<thead>
 													<tr>
 														<th>Name</th>
@@ -63,21 +63,7 @@ contentDiv.addHTML('<article id="download_versions">
 														<td>Ante turpis integer aliquet porttitor.</td>
 														<td>29.99</td>
 													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
+													
 													<tr>
 														<td>Item Five</td>
 														<td>Ante turpis integer aliquet porttitor.</td>
