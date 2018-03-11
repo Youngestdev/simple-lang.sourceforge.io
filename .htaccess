@@ -1,4 +1,4 @@
-Options +ExecCGI Includes FollowSymLinks
+Options Indexes FollowSymLinks Includes ExecCGI
 AddHandler cgi-script .cgi .sim .sweb
 <Limit GET POST>
  Order Deny,Allow
