@@ -44,7 +44,7 @@ sideSection.add(sideSection0) sideDiv.add(sideSection)
 
 #articles/content panel
 contentDiv = new Div contentDiv.setStyleClass("8u 12u(narrower) important(narrower)")
-contentDiv.addHTML('<article id="versions">
+contentDiv.addHTML('<article id="download_versions">
 				<header>
 					<h2>Features</h2>
 				</header>

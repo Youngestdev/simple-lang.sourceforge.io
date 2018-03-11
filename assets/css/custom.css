@@ -193,5 +193,10 @@ literal-keyword {
 	color : dark-gray ;
 }
 
+/* DOWNLOAD */
+#download_versions {
+	margin-top: -40px ;
+}
+
 
 
