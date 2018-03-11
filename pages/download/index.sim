@@ -48,7 +48,7 @@ contentDiv.addHTML('<article id="download_versions">
 				<header>
 					<h2>Features</h2>
 				</header>
-				<p><iframe id="versions_table" style="height:50%;width:100%;background:white;border:solid 3px black;">
+				<p><iframe id="versions_table" style="height:50%;width:100%;background:white;border:solid 3px #257591;">
 	
 	</iframe></p>
 			</article')
