@@ -11,7 +11,6 @@ locationUrl = 2
 
 call "../../head.sim"
 call "../../footer.sim"
-#call "../../downloadversions.sim"
 
 #>>> HEAD and HEADER 
 webpage = new Webpage() head = new Head
@@ -33,7 +32,7 @@ pageWrapper.add([headerWrapper])
 sideDiv = new Div sideDiv.setStyleClass("4u 12u(narrower)")
 sul = new Ul 
 #add all the sidebar
-x1 = new Link("Download By Versions", "#versions") x1.setStyleClass("button")
+x1 = new Link("Download By Versions", "#download_versions") x1.setStyleClass("button")
 xu1 = new Ul xu1.add(x1) xu1.addHTML('Download simple by the version number')
 x2 = new Link("Download By OS", "#os") x2.setStyleClass("button")
 x3 = new Link("Release Schedules", "#schedules") x3.setStyleClass("button")
@@ -48,37 +47,10 @@ contentDiv.addHTML('<article id="download_versions">
 				<header>
 					<h2>Download By Versions</h2>
 				</header>
-				<p><div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</p>
+				<p><iframe id="versions_frame" style="height:60%;width:100%;background:white;border:solid 1px gray;">
+	
+				</iframe>
+				</p>
 			</article')
 
 #add to parent

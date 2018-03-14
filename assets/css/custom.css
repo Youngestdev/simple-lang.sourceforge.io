@@ -208,6 +208,11 @@ literal-keyword {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		color: black ;
+	}
+	
+	table.alt {
+		border-collapse: separate;
 	}
 
 		table tbody tr {
@@ -235,12 +240,8 @@ literal-keyword {
 			border-top: solid 2px;
 		}
 
-		table.alt {
-			border-collapse: separate;
-		}
-
 			table.alt tbody tr td {
-				border: solid 1px;
+				border: solid 1px gray;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -255,7 +256,6 @@ literal-keyword {
 
 			table.alt thead {
 				border-bottom: 0;
-				color:red;
 			}
 
 			table.alt tfoot {
@@ -267,11 +267,11 @@ literal-keyword {
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(131, 154, 191, 0.075);
 		}
 
 	table th {
-		color: #ffffff;
+		color: black;
 	}
 
 	table thead {
@@ -283,7 +283,7 @@ literal-keyword {
 	}
 
 	table.alt tbody tr td {
-		border-color: rgba(255, 255, 255, 0.35);
+		border-color: rgb(131, 154, 191);
 	}
 
 

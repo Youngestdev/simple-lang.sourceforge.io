@@ -1,0 +1,52 @@
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+call "web/front/Webpage.sim" 
+call "web/front/elements/Elements.sim"
+call "web/front/elements/Div.sim"
+call "web/front/elements/Table.sim"
+call "downloadclass.sim"
+
+table = new Table(1,"alt")
+#table.addTHead() 
+table.addToHead(["Version","Realease Date","Download Link"])
+for a = 0 to lengthOf(versions)
+	table.addToBody(versions[a])
+end
+
+tdiv = new Div tdiv.setStyleClass("table-wrapper")
+tdiv.add(table)
+webpage = new Webpage()
+webpage.addToBody(tdiv)
+webpage.render()
+
+
+/*<div class="">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>*/

@@ -5,6 +5,7 @@ $(document).ready(function(){
 	$('#try_online_shell').hide();
 	$("#introduction > div:gt(0)").hide();
 	slideShow();
+	$("#versions_frame").attr('src', '../../objects/downloadversions.sim');
   
 });
 
