@@ -8,6 +8,11 @@ c1 = new Contributor(imageUrl+"contributors/thecarisma.jpg", "Azeez Adewale", "A
 c1.github("https://github.com/Thecarisma") c1.email("azeezadewale98@gmail.com") 
 c1.twitter("https://twitter.com/iamthecarisma")
 add(contributorsList, c1)
+#bahat
+c1 = new Contributor(imageUrl+"contributors/bahat.jpg", "Busari Habibullaah", "General", "Reverse Engineer/System Programmer/Web Development/")
+c1.github("https://github.com/Bahat159") c1.email("busarih159@gmail.com") 
+c1.twitter("https://twitter.com/mykeels")
+add(contributorsList, c1)
 #mykeels
 c1 = new Contributor(imageUrl+"contributors/mykeels.jpg", "Ikechi Michael", "Build", "Changing the world, one line of code at a time")
 c1.github("https://github.com/mykeels") c1.email("mykehell123@gmail.com") 

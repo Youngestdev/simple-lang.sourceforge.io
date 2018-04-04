@@ -31,7 +31,10 @@ pageWrapper.add([headerWrapper])
 #licence content
 cdiv = new Div("main") cdiv.setStyleClass("container")
 article = new Article("content") he = new Header he.addHTML('<h2>SIMPLE LANGUAGE MINI TUTORIAL TO GET YOU STARTED</h2>
-<p>This .</p>')
+<p>This is a 300 line of quick tutorial to get you started with using the simple-lang. It summarize all the syntax of the language 
+in just 300 lines. It almost anything you ever need if you do not want to dig into the main <bold>Documentations</bold>. It is provided
+by <a href="https://github.com/Bahat159" >Tutorial By Busari Habibullaah</a>
+</p>')
 contBox = new Div contBox.setStyleClass("box alt")
 contBox.addHTML('<script src="https://github.com/simple-lang/simple/blob/master/doc/Simple%20Mini%20tutorial%20v1.0"></script>')
 article.add([he,contBox]) cdiv.add(article)
