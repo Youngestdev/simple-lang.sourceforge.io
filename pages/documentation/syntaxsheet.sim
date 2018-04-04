@@ -36,7 +36,7 @@ in just 300 lines. It almost anything you ever need if you do not want to dig in
 by <a href="https://github.com/Bahat159" >Busari Habibullaah</a>
 </p>')
 contBox = new Div contBox.setStyleClass("box alt")
-contBox.addHTML('<script src="https://gist-it.appspot.com/https://github.com/simple-lang/simple/blob/master/doc/Simple%20Mini%20tutorial%20v1.0"></script>')
+contBox.addHTML('<script src="https://gist-it.appspot.com/https://github.com/simple-lang/simple/blob/master/doc/Simple Mini tutorial v1.0"></script>')
 article.add([he,contBox]) cdiv.add(article)
 d1 = new Div d1.setStyleClass("wrapper") d1.add(cdiv) 
 pageWrapper.add(d1)
