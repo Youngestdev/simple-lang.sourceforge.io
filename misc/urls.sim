@@ -4,7 +4,7 @@ githubRepoUrl = "https://github.com/simple-lang/"
 simpleGithubRepoUrl = githubRepoUrl+"simple" 
 twitterUrl = "https://twitter.com/thesimplelang"
 facebookUrl = "https://www.facebook.com/simple-lang"
-slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzNTQyLWYyNDg5ZmQ0NzBhNjYzMzZhZmYwZjcxNjNkYjA4YTE3ODEwMjM4ZTUwMmFkYjMzMTgzYmRkNmQ2NjdmZjA2ZjM"
+slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzQwNzY1NTI1MDEyLWFlMzIzNGY3ZjBlYzVlZDRkY2IwNDA4N2U0Y2E4Y2QwNWY1ZjEyYjc1MTE3Mjk2OWZlNjQyMjA2OTZjZjM0NWI"
 pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
 websiteRepoUrl = "https://github.com/simple-lang/simple-lang.sourceforge.io" 
 
