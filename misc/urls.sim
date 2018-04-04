@@ -2,7 +2,7 @@
 #external links
 githubRepoUrl = "https://github.com/simple-lang/"
 simpleGithubRepoUrl = githubRepoUrl+"simple" 
-twitterUrl = "https://twitter.com/iamthecarisma"
+twitterUrl = "https://twitter.com/thesimplelang"
 facebookUrl = "https://www.facebook.com/simple-lang"
 slackUrl = "https://join.slack.com/t/simple-lang/shared_invite/enQtMzIzOTMzOTgzNTQyLWYyNDg5ZmQ0NzBhNjYzMzZhZmYwZjcxNjNkYjA4YTE3ODEwMjM4ZTUwMmFkYjMzMTgzYmRkNmQ2NjdmZjA2ZjM"
 pullRequestUrl = "https://github.com/simple-lang/simple/pulls"
