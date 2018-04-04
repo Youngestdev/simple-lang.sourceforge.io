@@ -16,6 +16,7 @@ licenceUrl = url+"pages/download/license.sim"
 issueTrackerUrl =  url+"pages/issuetracker.sim"
 documentationUrl = url+"pages/documentation/"
 	syntaxSheetUrl = url+"pages/documentation/syntaxsheet.sim"
+	gettingStartedUrl = url+"pages/documentation/gettingstarted.sim"
 	docUrl = url+"pages/documentation/doc.sim"
 	
 downloadUrl = url+"pages/download/"
@@ -59,6 +60,7 @@ add(downloadList, new Link("License", licenceUrl))
 #documentation links in footer
 documentationList = []
 add(documentationList, new Link("Syntax Sheet", syntaxSheetUrl))
+add(documentationList, new Link("Getting Started", gettingStartedUrl))
 add(documentationList, new Link("Docs", docUrl))
 
 #Examples links in footer
