@@ -18,7 +18,7 @@ c.github("https://github.com/mykeels") c.email("mykehell123@gmail.com")
 c.twitter("https://twitter.com/mykeels")
 add(contributorsList, c)
 #bahat
-c = new Contributor(imageUrl+"contributors/ebuka.jpg", "Ebuka", "Documentation", "")
+c = new Contributor(imageUrl+"contributors/noimage.jpg", "Ebuka", "Documentation", "")
 c.github("https://github.com/ebiboy2") 
 add(contributorsList, c)
 
