@@ -16,7 +16,7 @@ call "../../footer.sim"
 webpage = new Webpage() head = new Head
 
 #styling the head
-head.setTitle("License | SIMPLE") #set title
+head.setTitle("Syntax Sheet | SIMPLE") #set title
 head.setIcon(url+"favicon.ico") 
 
 #add all meta data link and add script if needed : declared in head.sim

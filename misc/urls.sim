@@ -80,7 +80,8 @@ add(communityList, new Link("Facebook", facebookUrl))
 add(communityList, new Link("Slack", slackUrl))
 
 #contributing links in footer
-contributingList = []
+contributingList = [] 
+add(contributingList, new Link("Contributors", contributorsUrl))
 add(contributingList, new Link("Issue Tracker", issueTrackerUrl))
 add(contributingList, new Link("Make Pull Request", pullRequestUrl))
 add(contributingList, new Link("Website Source", websiteRepoUrl))
