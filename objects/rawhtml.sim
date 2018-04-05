@@ -1,8 +1,8 @@
 
 
 #the building from source paragraph
-buildingFromSourcePara = "<bold>WINDOWS</bold><br/>
+buildingFromSourcePara = '<span id="windows" style="font-weight:900px;font-size:25px;">WINDOWS</span><br/>
 	To build it on linux you will need the following tools 
 		MingWIN 
 
-"
+'
