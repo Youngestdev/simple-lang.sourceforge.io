@@ -32,7 +32,7 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	Building on MAC is a simpler process as a makefile has been created for the purpose by <a href="https://twitter.com/mykeels" >mykeels</a>. All you 
 	need to do is clone the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple">simple repository</a> </span>. Navigate to the 
 	<span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/makefiles/mac">makefile/mac/</a> </span> folder in bootsrc/ 
-	and copy the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/blob/master/bootsrc/makefiles/mac/Makefile">Makefile/</a> </span>
+	and copy the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/blob/master/bootsrc/makefiles/mac/Makefile">Makefile</a> </span>
 	into the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/sources">sources</a> </span> folder
 	in bootsrc/. Open your terminal change your directory to the source folder and execute clang <br/>
 	<code>? cd ./bootsrc/sources/ </code> <br/>
@@ -43,15 +43,15 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	<code>? ./simple <br/></code> <br/>
 	The help text should be printed on the screen
 	
-	<br/><br/><span id="mac" style="font-weight:900;font-size:25px;">MAC</span><br/>
-	Building on LINUX/UNIX is a similar to MAC building process as a makefile has been created for the purpose by <a href="https://twitter.com/mykeels" >mykeels</a>. All you 
+	<br/><br/><span id="linux" style="font-weight:900;font-size:25px;">LINUX/UNIX</span><br/>
+	Building on LINUX/UNIX is similar to MAC building process as a makefile has been created for the purpose. All you 
 	need to do is clone the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple">simple repository</a> </span>. Navigate to the 
-	<span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/makefiles/mac">makefile/mac/</a> </span> folder in bootsrc/ 
-	and copy the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/blob/master/bootsrc/makefiles/mac/Makefile">Makefile/</a> </span>
+	<span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/makefiles/linux">makefile/linux/</a> </span> folder in bootsrc/ 
+	and copy the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/blob/master/bootsrc/makefiles/linux/Makefile">Makefile</a> </span>
 	into the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/sources">sources</a> </span> folder
-	in bootsrc/. Open your terminal change your directory to the source folder and execute clang <br/>
+	in bootsrc/. Open your terminal change your directory to the source folder and execute make <br/>
 	<code>? cd ./bootsrc/sources/ </code> <br/>
-	<code>? clang <br/></code> <br/>
+	<code>? make <br/></code> <br/>
 	After the compilation is successful with no error a dist folder would have been created with a simple.dylib and simple files in it. To try your build
 	navigate to the folder and execute the ./simple command <br/>
 	<code>? cd ../dist/ </code> <br/>
