@@ -17,6 +17,9 @@ for a = 0 to vlen
 	table.addToBody(versions[a].toString())
 end
 
+class Version
+
+	
 
 /*<div class="">
 											<table class="alt">
