@@ -3,10 +3,14 @@
 call "web/front/Webpage.sim" 
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Div.sim"
-call "downloadclass.sim"
+call "web/front/elements/Table.sim"
 
-vlen = lengthOf(versions)
-for a = 0 to vlen
+versions = []
+
+table = new Table(1,"alt")
+#table.addTHead() 
+table.addToHead(["Version","Realease Date","Download Link"])
+for a = 0 to lengthOf(versions)
 	table.addToBody(versions[a])
 end
 
