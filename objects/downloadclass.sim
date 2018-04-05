@@ -6,6 +6,6 @@ versions = ["Version","Realease Date","Download Link"]
 
 table = new Table("") table.setStyleClass("alt")
 table.addToHead(["Version","Realease Date","Download Link"])
-table.addToBody([versions,versions,versions])
+table.addToBody([versions,versions,versions,versions])
 
 class Version
