@@ -1,0 +1,14 @@
+#
+
+indexCardList = [
+	]
+	
+class IndexCard 
+
+	heading = ""
+	detail = ""
+	link = ""
+	raw = ""
+
+	block IndexCard(ihead,idetail,ilink,iraw)
+		heading = '<span>'+ihead+'</span>'
