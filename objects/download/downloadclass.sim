@@ -1,0 +1,65 @@
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+#Note this is for the latest download only
+call "web/front/elements/Table.sim"
+
+#add new version to the version list below
+byversions = [
+			new ByVersion('0.3.213', '2018-03-12', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/')]
+			
+#take note of the by os it has to be the latest build of the os not all builds
+byoses = [
+			new ByOperatingSystem('simple0.3.213-windows.exe','0.3.213', '2018-02-14', 'Download', '568.7 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.exe/download' ),
+			new ByOperatingSystem('simple0.3.213-mac.zip','0.3.213', '2018-02-14', 'Download', '499.2 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-mac.zip/download' ),
+			new ByOperatingSystem('simple0.3.213-linux-centos7.zip','0.3.213', '2018-02-14', 'Download', '568.3 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-linux-centos7.zip/download' ),
+			new ByOperatingSystem('simple0.3.213-windows.zip','0.3.213', '2018-02-14', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.zip/download' )]
+
+#do not touch below if you dont know how it works
+#versions list
+versionTable = new Table("") versionTable.setStyleClass("alt")
+versionTable.addToHead(["Version","Realease Date","Download Link", "Size"])
+versionTable.addToBody(byversions)
+#oses list
+osTable = new Table("") osTable.setStyleClass("alt")
+osTable.addToHead(["File Name","Version","Date","Size","Download Link"])
+osTable.addToBody(byoses)
+
+class ByVersion
+
+	version = ""
+	date = ""
+	download = ""
+	size = "1 mB"
+
+	block ByVersion(ver,idate,down,siz,link)
+		version = new Link(ver, link)
+		version.addStyle("font-weight:900;")
+		date = idate
+		download = new Link(down, link)
+		download.setTextColor('green') download.addStyle("font-weight:900;")
+		size = siz
+		
+	block toList()
+		return [version,date,download,size]
+		
+class ByOperatingSystem
+
+	version = ""
+	date = ""
+	download = ""
+	size = "1 mB"
+	filename  = ""
+
+	block ByOperatingSystem(name,ver,idate,down,siz,link)
+		filename = new Link(name, link)
+		version = new Link(ver, link)
+		date = idate
+		size = siz
+		download = new Link(down, link)
+		download.setTextColor('green') download.addStyle("font-weight:900;")
+		version.addStyle("font-weight:900;") filename.addStyle("font-weight:900;")
+		
+	block toList()
+		return [filename,version,date,size,download]
+		
+		
