@@ -6,7 +6,7 @@ versions = []
 
 versions 
 
-table = new Table("alt")
+table = new Table("") table.setStyleClass("alt")
 table.addToHead(0,["Version","Realease Date","Download Link"])
 vlen = lengthOf(versions)
 for a = 0 to vlen
