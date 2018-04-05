@@ -56,6 +56,8 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	navigate to the folder and execute the ./simple command <br/>
 	<code>? cd ../dist/ </code> <br/>
 	<code>? ./simple <br/></code> <br/>
-	The help text should be printed on the screen
+	The help text should be printed on the screen.<br/><br/><br/>
+	<span style="font-weight:900;">NOTE</span><br/>
+	This build is for the simple interpreter only and does not include modules and environments
 	
 '
