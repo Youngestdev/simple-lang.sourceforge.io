@@ -5,11 +5,19 @@ buildingFromSourcePara = '<span id="windows" style="font-weight:900px;font-size:
 	To build it on linux you will need the following tools <br/>
 	<span><a href="http://www.mingw.org/"  >MingWIN and MSYS</a>  <span><br/>
 	<span><a href="https://netbeans.org/"  >NetBeans IDE</a> with C/C++ plugin (optional)<span><br/>
-	Download the mingwn and the msys toolchain which is a complete Open Source programming tool set for the C/C++ Development. To further make the building 
-	process easier you can setup your NetBeans IDE to compile C/C++ using the C/C++ plugin. You can create a makefile for building the source files in the
-	bootsrc/sources/ and bootsrc/includes/ if using only the mingwn and msys toolchain. If you have a working C/C++ setup with NetBeans IDE you can download 
-	the complete project file <a href="http://www.mingw.org/"  >here</a> and paste the content in the same location as the bootsrc/sources/ and bootsrc/includes/
-	folders so you have an hierarchy like <br/>
-	&emsp;&emsp;&emsp;kj
+	Download the mingwn and the msys toolchain which is a complete Open Source programming tool set for the C/C++ Development. 
+	You can create a makefile for building the source files in the bootsrc/sources/ and bootsrc/includes/ if using only the mingwn and msys toolchain. 
+	To further make the building process easier you can setup your NetBeans IDE to compile C/C++ using the C/C++ plugin. If you have a working C/C++ 
+	<span id="">Building with NetBeans IDE</span><br/>
+	setup with NetBeans IDE you can download  the complete project file <a href="http://www.mingw.org/"  >here</a> and paste the content in the same 
+	location as the bootsrc/sources/ and bootsrc/includes/ folders so you have an hierarchy like <br/>
+	&emsp;&emsp;&emsp;build<br/>
+	&emsp;&emsp;&emsp;dist<br/>
+	&emsp;&emsp;&emsp;includes<br/>
+	&emsp;&emsp;&emsp;nbproject<br/>
+	&emsp;&emsp;&emsp;sources<br/>
+	&emsp;&emsp;&emsp;.dep.inc<br/>
+	&emsp;&emsp;&emsp;Makefile<br/>
+	&emsp;&emsp;&emsp;simple.c<br/>
 
 '
