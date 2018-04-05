@@ -36,7 +36,10 @@ x1 = new Link("Download By Versions", "#download_versions") x1.setStyleClass("bu
 xu1 = new Ul xu1.add(x1) xu1.addHTML('Download simple by the version number')
 x2 = new Link("Download By OS", "#os") x2.setStyleClass("button")
 xu2 = new Ul xu2.add(x2) xu2.addHTML('Download simple by the Operating System
-<a href="http://localhost/simple-lang.sourceforge.io/index.sim"  > WINDOWS</a> ')
+<a href="'+windownloadUrl+'"  > WINDOWS</a> <br/>
+<a href="'+macdownloadUrl+'"  >MACHINTOCH</a> <br/>
+<a href="'+linuxdownloadUrl+'"  >LINUX</a> <br/>
+<a href="'+buildFromScratchUrl+'"  >BUILD FOR OTHER PLATFORM</a> <br/>')
 x3 = new Link("Release Schedules", "#schedules") x3.setStyleClass("button")
 sul.add([xu1,xu2,x3]) sul.setStyleClass("actions")
 sideSection0 = new Section
