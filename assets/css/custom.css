@@ -55,7 +55,18 @@
 }
 
 #index-div {
-	background : red ;
+	display: flex;
+	color : #257591 ;
+	flex-wrap: wrap;
+	margin:7%;
+	margin-bottom: 50px;
+	position:relative;
+	align-items: flex-start;
+}
+
+#index-div ul {
+	text-decoration: none;
+	width:310px;
 }
 
 /** FOOTER **/
