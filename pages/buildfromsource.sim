@@ -35,9 +35,10 @@ sul = new Ul
 #add all the sidebar
 
 x1= new Link("Windows", "#windows") x1.setStyleClass("button")
+xu1 = new Ul xu1.add(x1) xu1.add(new Link("Build with NetBeans IDE","#building_with_netbeans"))
 x2 = new Link("Documentations", "#schedules") x2.setStyleClass("button")
 x3 = new Link("Release Schedules", "#schedules") x3.setStyleClass("button")
-sul.add([x1,x2,x3]) sul.setStyleClass("actions")
+sul.add([xu1,x2,x3]) sul.setStyleClass("actions")
 sideSection0 = new Section
 sideSection = new Section("sidebar")  sideSection0.add(sul)
 sideSection.add(sideSection0) sideDiv.add(sideSection)
