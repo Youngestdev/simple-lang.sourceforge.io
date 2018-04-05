@@ -74,6 +74,11 @@
 	font-weight : 900 ;
 }
 
+#index-div ul a {
+	color : #257591 ;
+	font-weight : 700 ;
+}
+
 /** FOOTER **/
 
 #footer .copyright {
