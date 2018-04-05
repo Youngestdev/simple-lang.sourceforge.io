@@ -1,0 +1,86 @@
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+call "web/style/StyleAttributes.sim" 
+call "web/style/StyleColor.sim" ? web.style
+call "web/front/Webpage.sim" 
+call "web/front/Script.sim" ? web.front
+call "web/front/elements/Elements.sim"
+call "web/front/elements/Head.sim" ? web.front.elements
+
+locationUrl = 2
+
+call "../head.sim"
+call "../footer.sim"
+
+#>>> HEAD and HEADER 
+webpage = new Webpage() head = new Head
+
+#styling the head
+head.setTitle("Download | SIMPLE") #set title
+head.setIcon(url+"favicon.ico") 
+
+#add all meta data link and add script if needed : declared in head.sim
+head.addMeta(headMeta4) 
+head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
+#end head styling 
+webpage.setHead(head)
+#
+pageWrapper = new Div("page-wrapper")
+pageWrapper.add([headerWrapper])
+
+#the sidebar
+sideDiv = new Div sideDiv.setStyleClass("4u 12u(narrower)")
+sul = new Ul 
+#add all the sidebar
+x1 = new Link("Download By Versions", "#download_versions") x1.setStyleClass("button")
+xu1 = new Ul xu1.add(x1) xu1.addHTML('Download simple by the version number')
+x2 = new Link("Download By OS", "#os") x2.setStyleClass("button")
+xu2 = new Ul xu2.add(x2) xu2.addHTML('Download simple by the Operating System
+<a href="'+windownloadUrl+'"  > WINDOWS</a> <br/>
+<a href="'+macdownloadUrl+'"  >MACHINTOCH</a> <br/>
+<a href="'+linuxdownloadUrl+'"  >LINUX/UNIX</a> <br/>
+<a href="'+buildFromScratchUrl+'"  >BUILD FOR OTHER PLATFORM</a> <br/>')
+x3 = new Link("Release Schedules", "#schedules") x3.setStyleClass("button")
+sul.add([xu1,xu2,x3]) sul.setStyleClass("actions")
+sideSection0 = new Section
+sideSection = new Section("sidebar")  sideSection0.add(sul)
+sideSection.add(sideSection0) sideDiv.add(sideSection)
+
+#articles/content panel
+contentDiv = new Div contentDiv.setStyleClass("8u 12u(narrower) important(narrower)")
+contentDiv.addHTML('<article id="download_versions">
+				<header>
+					<h2>Download By Versions</h2>
+				</header>
+				<p><iframe id="versions_frame" style="height:60%;width:100%;background:white;border:solid 1px gray;">
+	
+				</iframe>
+				</p>
+			</article>')
+contentDiv.addHTML('<article id="os" >
+				<header>
+					<h2>Download By Operating System</h2>
+				</header>
+				<p><iframe id="os_frame" style="height:60%;width:100%;background:white;border:solid 1px gray;">
+	
+				</iframe>
+				</p>
+			</article>')
+
+#add to parent
+dd = new Div dd.setStyleClass("row 150%") dd.add([sideDiv,contentDiv])
+dc = new Div("main") dc.setStyleClass("container") dc.add(dd)
+d1 = new Div d1.setStyleClass("wrapper") d1.add(dc) 
+pageWrapper.add(d1)
+
+webpage.setBodyClass("no-sidebar")
+webpage.addToBody(pageWrapper)
+webpage.addFooter(footer)
+webpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
+			<script src="'+url+'assets/js/jquery.dropotron.min.js"></script>
+			<script src="'+url+'assets/js/skel.min.js"></script>
+			<script src="'+url+'assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="'+url+'assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="'+url+'assets/js/main.js"></script>')
+webpage.render() 
+#<< HEAD and HEADER end
