@@ -1,9 +1,12 @@
 
 
 #the building from source paragraph
-buildingFromSourcePara = '<span id="windows" style="font-weight:900;font-size:25px;">WINDOWS</span><br/>
+buildingFromSourcePara = 'Before proceeding with building from source you must have clone the github repository. If you have not clone it use this link 
+	<span style="font-weight:900;"><a href="https://github.com/simple-lang/simple">https://github.com/simple-lang/simple</a> </span> to download the 
+	source then you can proceed with the building process <br/></br>
+	<span id="windows" style="font-weight:900;font-size:25px;">WINDOWS</span><br/>
 	To build it on linux you will need the following tools <br/>
-	<span><a href="http://www.mingw.org/"  >MingWIN and MSYS</a> <span> <br/>
+	<span><a href="http://www.mingw.org/"  >MingWIN and MSYS</a> </span> <br/>
 	<span><a href="https://netbeans.org/"  >NetBeans IDE</a> with C/C++ plugin (optional)<span>
 	
 	<br/><br/><span id="building_with_mingwn" style="font-weight:bold;">Building with Only MingWIN and MSYS</span><br/>
