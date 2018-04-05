@@ -15,7 +15,8 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	
 	<br/><br/><span id="building_with_netbeans" style="font-weight:bold;">Building with NetBeans IDE</span><br/>
 	To further make the building process easier you can setup your NetBeans IDE to compile C/C++ using the C/C++ plugin. If you have a working C/C++ 
-	setup with NetBeans IDE you can download  the complete project file <a href="http://www.mingw.org/"  >here</a> and paste the content in the same 
+	setup with NetBeans IDE you can download  the complete project file 
+	<a href="https://sourceforge.net/projects/simple-lang/files/dependencies/netbeansdep-4-5-2018.zip/download"  >here</a> and paste the content in the same 
 	location as the bootsrc/sources/ and bootsrc/includes/ folders so you have an hierarchy like <br/>
 	&emsp;&emsp;&emsp;includes<br/>
 	&emsp;&emsp;&emsp;nbproject<br/>
@@ -23,6 +24,8 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	&emsp;&emsp;&emsp;.dep.inc<br/>
 	&emsp;&emsp;&emsp;Makefile<br/>
 	&emsp;&emsp;&emsp;simple.c<br/>
-	After you achieve doing the above open your project in NetBeans IDE and run at once.
+	After you achieve the above open your project in NetBeans IDE and build at once. Note using the NetBeans IDE it does not build the simple.exe executable
+	for you just simple.dll is built you will have to create a new project and add simple.c and simple.h as source linking to the simple.dll built initially
+	with the source.
 
 '
