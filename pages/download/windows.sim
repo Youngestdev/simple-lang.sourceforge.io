@@ -51,7 +51,7 @@ webpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
 			<script src="'+url+'assets/js/main.js"></script>
 			
 			<script >
-				$("#windows_frame").attr("src", "../../objects/download/downloadversions.sim");
+				$("#windows_frame").attr("src", "../../objects/download/windowsdownloads.sim");
 			</script>')
 webpage.render() 
 #<< HEAD and HEADER end
