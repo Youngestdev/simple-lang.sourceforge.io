@@ -11,6 +11,7 @@ locationUrl = 2
 
 call "../head.sim"
 call "../footer.sim"
+call "../objects/rawhtml.sim"
 
 #>>> HEAD and HEADER 
 webpage = new Webpage() head = new Head
@@ -47,7 +48,7 @@ contentDiv.addHTML('<article id="download_versions">
 				<header>
 					<h2>Building From Source</h2>
 				</header>
-				<p style="text-align:left;">khjhj
+				<p style="text-align:left;">'+buildingFromSourcePara+'
 				</p>
 			</article>')
 
