@@ -12,7 +12,7 @@ macReleases = [
 			new ByOperatingSystem('simple0.3.213-mac.zip','0.3.213', '2018-02-14', 'Download', '499.2 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-mac.zip/download' )
 ]
 linuxReleases = [
-			new ByOperatingSystem('simple0.3.213-linux-centos7.zip','0.3.213', '2018-02-14', 'Download', '568.3 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-linux-centos7.zip/download' ),
+			new ByOperatingSystem('simple0.3.213-linux-centos7.zip','0.3.213', '2018-02-14', 'Download', '568.3 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-linux-centos7.zip/download' )
 ]
 
 #add new version to the version list below
