@@ -10,5 +10,16 @@ class IndexCard
 	link = ""
 	raw = ""
 
-	block IndexCard(ihead,idetail,ilink,iraw)
-		heading = '<span>'+ihead+'</span>'
+	block IndexCard(ihead,idetail,linkInfo,ilink,iraw)
+		heading = '<span>'+ihead+'</span>
+		'
+		detail = '<p>'+idetail+'</p>
+		'
+		link = '<a href="'+ilink+'>'+linkInfo+'</a>
+		'
+		raw = iraw
+		
+	block toString()
+		return '<ul>
+		'+heading+detail+link+raw+'
+			</ul>'
