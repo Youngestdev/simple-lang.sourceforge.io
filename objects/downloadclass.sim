@@ -1,21 +1,5 @@
 #!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
 
-call "web/front/Webpage.sim" 
-call "web/front/elements/Elements.sim"
-call "web/front/elements/Div.sim"
-call "web/front/elements/Table.sim"
-
-versions = []
-
-versions 
-
-table = new Table(1,"alt")
-#table.addTHead() 
-table.addToHead(["Version","Realease Date","Download Link"])
-vlen = lengthOf(versions)
-for a = 0 to vlen
-	table.addToBody(versions[a].toString())
-end
 
 class Version
 

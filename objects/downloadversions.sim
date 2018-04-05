@@ -8,10 +8,11 @@ call "web/front/elements/Head.sim" ? web.front.elements
 locationUrl = 2
 
 call "../head.sim"
-#call "downloadclass.sim"
+call "downloadclass.sim"
 
 
 tdiv = new Div tdiv.setStyleClass("table-wrapper")
+tdiv.add(table)
 tdiv.addHTML('<div class="">
 											<table class="alt">
 												<thead>
