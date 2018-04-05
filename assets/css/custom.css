@@ -54,6 +54,10 @@
 	padding: 10px;
 }
 
+#index-div {
+	background : red ;
+}
+
 /** FOOTER **/
 
 #footer .copyright {
