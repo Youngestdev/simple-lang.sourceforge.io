@@ -6,8 +6,8 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	source then you can proceed with the building process <br/></br>
 	<span id="windows" style="font-weight:900;font-size:25px;">WINDOWS</span><br/>
 	To build it on linux you will need the following tools <br/>
-	<span><a href="http://www.mingw.org/"  >MingWIN and MSYS</a> </span> <br/>
-	<span><a href="https://netbeans.org/"  >NetBeans IDE</a> with C/C++ plugin (optional)<span>
+	<span><a href="http://www.mingw.org/" >MingWIN and MSYS</a> </span> <br/>
+	<span><a href="https://netbeans.org/" >NetBeans IDE</a> with C/C++ plugin (optional)<span>
 	
 	<br/><br/><span id="building_with_mingwn" style="font-weight:bold;">Building with Only MingWIN and MSYS</span><br/>
 	Download the mingwn and the msys toolchain which is a complete Open Source programming tool set for the C/C++ Development. 
@@ -27,5 +27,7 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	After you achieve the above open your project in NetBeans IDE and build at once. Note using the NetBeans IDE it does not build the simple.exe executable
 	for you just simple.dll is built you will have to create a new project and add simple.c and simple.h as source linking to the simple.dll built initially
 	with the source.
+	<br/><br/><span id="mac" style="font-weight:900;font-size:25px;">MAC</span><br/>
+	Building on MAC is a simpler process as a makefile has been created for the purpose by <a href="https://twitter.com/mykeels" >mykeels</a>. 
 
 '
