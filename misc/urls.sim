@@ -22,7 +22,7 @@ documentationUrl = url+"pages/documentation/"
 downloadUrl = url+"pages/download/"
 	windownloadUrl = url+"pages/download/windows.sim"
 	macdownloadUrl = url+"pages/download/mac.sim"
-	linuxdownloadUrl = url+"pages/download/linux/"
+	linuxdownloadUrl = url+"pages/download/linux.sim"
 	
 modulesUrl = url+"modules/"
 environmentUrl = url+"pages/environment.sim"

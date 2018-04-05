@@ -12,11 +12,11 @@ call "downloadclass.sim"
 
 
 tdiv = new Div tdiv.setStyleClass("table-wrapper")
-tdiv.add(winTable)
+tdiv.add(linuxTable)
 webpage = new Webpage() head = new Head 
 
 #styling the head
-head.setTitle("Download simple for WINDOWS") head.setIcon("favicon.ico") 
+head.setTitle("Download simple for LINUX/UNIX") head.setIcon("favicon.ico") 
 
 #add all meta data link and add script if needed : declared in head.sim
 head.addMeta(headMeta4) 

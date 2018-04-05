@@ -1,0 +1,57 @@
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+
+call "web/style/StyleAttributes.sim" 
+call "web/style/StyleColor.sim" ? web.style
+call "web/front/Webpage.sim" 
+call "web/front/Script.sim" ? web.front
+call "web/front/elements/Elements.sim"
+call "web/front/elements/Head.sim" ? web.front.elements
+
+locationUrl = 2
+
+call "../../head.sim"
+call "../../footer.sim"
+
+#>>> HEAD and HEADER 
+webpage = new Webpage() head = new Head
+
+#styling the head
+head.setTitle("Download | SIMPLE") #set title
+head.setIcon(url+"favicon.ico") 
+
+#add all meta data link and add script if needed : declared in head.sim
+head.addMeta(headMeta4) 
+head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
+#end head styling 
+webpage.setHead(head)
+#
+pageWrapper = new Div("page-wrapper")
+pageWrapper.add([headerWrapper])
+
+#licence content
+cdiv = new Div("main") cdiv.setStyleClass("container")
+article = new Article("content") he = new Header he.addHTML('<h2>Downloads For MAC</h2>
+<p>Download all the builds for windows. It is arrange by the version number with the latest version at the top and the least version at the bottom.</p>')
+contBox = new Div contBox.setStyleClass("box alt")
+contBox.addHTML('<iframe id="windows_frame" style="height:60%;width:100%;background:white;border:solid 1px gray;">
+	
+				</iframe>')
+article.add([he,contBox]) cdiv.add(article)
+d1 = new Div d1.setStyleClass("wrapper") d1.add(cdiv) 
+pageWrapper.add(d1)
+
+webpage.setBodyClass("no-sidebar")
+webpage.addToBody(pageWrapper)
+webpage.addFooter(footer)
+webpage.addToBody('<script src="'+url+'assets/js/jquery.min.js"></script>
+			<script src="'+url+'assets/js/jquery.dropotron.min.js"></script>
+			<script src="'+url+'assets/js/skel.min.js"></script>
+			<script src="'+url+'assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="'+url+'assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="'+url+'assets/js/main.js"></script>
+			
+			<script >
+				$("#windows_frame").attr("src", "../../objects/download/macdownloads.sim");
+			</script>')
+webpage.render() 
+#<< HEAD and HEADER end

@@ -37,6 +37,14 @@ osTable.addToBody(byoses)
 winTable = new Table("") winTable.setStyleClass("alt")
 winTable.addToHead(["File Name","Version","Date","Size","Download Link"])
 winTable.addToBody(windowsReleases)
+#mac list
+macTable = new Table("") macTable.setStyleClass("alt")
+macTable.addToHead(["File Name","Version","Date","Size","Download Link"])
+macTable.addToBody(macReleases)
+#linux list
+linuxTable = new Table("") linuxTable.setStyleClass("alt")
+linuxTable.addToHead(["File Name","Version","Date","Size","Download Link"])
+linuxTable.addToBody(linuxReleases)
 
 class ByVersion
 
