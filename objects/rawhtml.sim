@@ -3,7 +3,9 @@
 #the building from source paragraph
 buildingFromSourcePara = '<span id="windows" style="font-weight:900px;font-size:25px;">WINDOWS</span><br/>
 	To build it on linux you will need the following tools <br/>
-	<span><a href="http://www.mingw.org/"  >MingWIN</a>  <span><br/>
-	<span><a href="http://www.mingw.org/"  >NetBeans IDE</a> with C/C++ plugin (optional)<span>
+	<span><a href="http://www.mingw.org/"  >MingWIN and MSYS</a>  <span><br/>
+	<span><a href="http://www.mingw.org/"  >NetBeans IDE</a> with C/C++ plugin (optional)<span><br/>
+	Download the mingwn and the msys toolchain which is a complete Open Source programming tool set for the C/C++ Development. To further make the building 
+	process easier you can setup your NetBeans IDE to compile C/C++ using the C/C++ plugin 
 
 '
