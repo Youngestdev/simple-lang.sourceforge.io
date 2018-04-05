@@ -7,7 +7,8 @@ versions = []
 versions 
 
 table = new Table("") table.setStyleClass("alt")
-table.addToHead(0,["Version","Realease Date","Download Link"])
+table.addToHead(["Version","Realease Date","Download Link"])
+table.addToBody(versions)
 vlen = lengthOf(versions)
 for a = 0 to vlen
 	table.addToBody(versions[a].toString())
