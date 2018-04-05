@@ -28,6 +28,12 @@ buildingFromSourcePara = 'Before proceeding with building from source you must h
 	for you just simple.dll is built you will have to create a new project and add simple.c and simple.h as source linking to the simple.dll built initially
 	with the source.
 	<br/><br/><span id="mac" style="font-weight:900;font-size:25px;">MAC</span><br/>
-	Building on MAC is a simpler process as a makefile has been created for the purpose by <a href="https://twitter.com/mykeels" >mykeels</a>. 
-
+	Building on MAC is a simpler process as a makefile has been created for the purpose by <a href="https://twitter.com/mykeels" >mykeels</a>. All you 
+	need to do is clone the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple">simple repository</a> </span>. Navigate to the 
+	<span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/makefiles/mac">makefile/mac/</a> </span> folder in bootscr/ 
+	and copy the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/blob/master/bootsrc/makefiles/mac/Makefile">Makefile/</a> </span>
+	into the <span style="font-weight:bold;"><a href="https://github.com/simple-lang/simple/tree/master/bootsrc/sources">sources</a> </span> folder
+	in bootscr/. Open your terminal change your directory to the source folder and execute clang
+	
+	
 '
