@@ -1,6 +1,7 @@
 #
 
 indexCardList = [
+		new IndexCard("Download","jhjdhsjhdjsh","download latest simple", downloadUrl, "")
 	]
 	
 class IndexCard 
@@ -15,7 +16,7 @@ class IndexCard
 		'
 		detail = '<p>'+idetail+'</p>
 		'
-		link = '<a href="'+ilink+'>'+linkInfo+'</a>
+		link = '<a href="'+ilink+'">'+linkInfo+'</a>
 		'
 		raw = iraw
 		

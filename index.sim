@@ -11,6 +11,7 @@ locationUrl = 0
 
 call "head.sim"
 call "footer.sim"
+call "./objects/indexcard.sim"
 
 #>>> HEAD and HEADER 
 headerWebpage = new Webpage() head = new Head
@@ -25,30 +26,11 @@ head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.
 #end head styling 
 headerWebpage.setHead(head)
 bodyContent = new Div("index-div")
-bodyContent.addHTML('<ul > 
-		<span>About</span>
 
-		<li>		hjhjhjhdjhs jdhsjhdjhsj</li>
-
-			</ul>		<ul  > 
-		<span>Download</span>
-
-		<li>		<a href="https://github.com/simple-lang/simple"  > Source Code</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/download/windows.sim"  > Windows</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/download/mac.sim"  > MAC OS</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/download/linux.sim"  > Linux</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/download/"  > Other Platforms</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/buildfromsource.sim"  > Build For Other Platforms</a></li>
-
-		<li>		<a href="http://localhost/simple-lang.sourceforge.io/pages/download/license.sim"  > License</a></li>
-
-			</ul>
-')
+iclen = lengthOf(indexCardList)
+for a = 0 to iclen 
+	bodyContent.add(indexCardList[a])
+end
 #
 pageWrapper = new Div("page-wrapper")
 pageWrapper.add([headerWrapper,bodyContent])
