@@ -3,6 +3,11 @@
 call "web/front/Webpage.sim" 
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Div.sim"
+call "web/front/elements/Head.sim" ? web.front.elements
+
+locationUrl = 2
+
+call "../head.sim"
 #call "downloadclass.sim"
 
 
@@ -37,8 +42,15 @@ tdiv.addHTML('<div class="">
 												</tfoot>
 											</table>
 										</div>')
-webpage = new Webpage()
-webpage.addToBody(tdiv)
+webpage = new Webpage() head = new Head
+
+#styling the head
+head.setTitle("Welcome to simple") head.setIcon("favicon.ico") 
+
+#add all meta data link and add script if needed : declared in head.sim
+head.addMeta(headMeta4) 
+head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
+webpage.setHead(head) webpage.addToBody(tdiv)
 webpage.addToBody('<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
