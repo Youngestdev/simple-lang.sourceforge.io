@@ -1,37 +1,17 @@
 #!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
 
+call "web/front/elements/Table.sim"
+
+versions = []
+
+versions 
+
+table = new Table("alt")
+#table.addTHead() 
+table.addToHead(["Version","Realease Date","Download Link"])
+vlen = lengthOf(versions)
+for a = 0 to vlen
+	table.addToBody(versions[a].toString())
+end
 
 class Version
-
-	
-
-/*<div class="">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>*/
