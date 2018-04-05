@@ -9,10 +9,11 @@ byversions = [
 			
 #take note of the by os it has to be the latest build of the os not all builds
 byoses = [
-			new ByOperatingSystem('simple0.3.213-windows.exe','0.3.213', '2018-02-14', 'Download', '568.7 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.exe/download' ),
+			
+			new ByOperatingSystem('simple0.3.213-windows.zip','0.3.213', '2018-02-14', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.zip/download' ),
 			new ByOperatingSystem('simple0.3.213-mac.zip','0.3.213', '2018-02-14', 'Download', '499.2 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-mac.zip/download' ),
 			new ByOperatingSystem('simple0.3.213-linux-centos7.zip','0.3.213', '2018-02-14', 'Download', '568.3 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-linux-centos7.zip/download' ),
-			new ByOperatingSystem('simple0.3.213-windows.zip','0.3.213', '2018-02-14', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.zip/download' )]
+			new ByOperatingSystem('simple0.3.213-windows.exe','0.3.213', '2018-02-14', 'Download', '568.7 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.exe/download' )]
 
 #do not touch below if you dont know how it works
 #versions list
