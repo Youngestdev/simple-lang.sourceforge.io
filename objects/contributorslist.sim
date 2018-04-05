@@ -17,7 +17,7 @@ add(contributorsList, c)
 c = new Contributor(imageUrl+"contributors/bahat.jpg", "Busari Habibullaah", "General", "Reverse Engineer/System Programmer/Web Development/")
 c.github("https://github.com/Bahat159") c.email("busarih159@gmail.com") 
 add(contributorsList, c)
-#bahat
+#ebuka
 c = new Contributor(imageUrl+"contributors/noimage.jpg", "Ebuka", "Documentation", "")
 c.github("https://github.com/ebiboy2") 
 add(contributorsList, c)
