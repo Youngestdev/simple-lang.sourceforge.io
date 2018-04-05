@@ -3,17 +3,23 @@
 #Note this is for the latest download only
 call "web/front/elements/Table.sim"
 
+#add the build the latest at the top
+windowsReleases = [
+			new ByOperatingSystem('simple0.3.213-windows.zip','0.3.213', '2018-02-14', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.zip/download' )
+]
+
 #add new version to the version list below
 byversions = [
 			new ByVersion('0.3.213', '2018-03-12', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/')]
 			
 #take note of the by os it has to be the latest build of the os not all builds
+#you do not need to add anything to the byoses list it fetch it automatically
 byoses = [
-			
 			new ByOperatingSystem('simple0.3.213-windows.zip','0.3.213', '2018-02-14', 'Download', '635.1 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.zip/download' ),
 			new ByOperatingSystem('simple0.3.213-mac.zip','0.3.213', '2018-02-14', 'Download', '499.2 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-mac.zip/download' ),
 			new ByOperatingSystem('simple0.3.213-linux-centos7.zip','0.3.213', '2018-02-14', 'Download', '568.3 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-linux-centos7.zip/download' ),
 			new ByOperatingSystem('simple0.3.213-windows.exe','0.3.213', '2018-02-14', 'Download', '568.7 kB','https://sourceforge.net/projects/simple-lang/files/v0.3.213/simple0.3.213-windows.exe/download' )]
+add(byoses,windowsReleases[0])
 
 #do not touch below if you dont know how it works
 #versions list
@@ -24,6 +30,10 @@ versionTable.addToBody(byversions)
 osTable = new Table("") osTable.setStyleClass("alt")
 osTable.addToHead(["File Name","Version","Date","Size","Download Link"])
 osTable.addToBody(byoses)
+#windows list
+winTable = new Table("") winTable.setStyleClass("alt")
+winTable.addToHead(["File Name","Version","Date","Size","Download Link"])
+winTable.addToBody(windowsReleases)
 
 class ByVersion
 
