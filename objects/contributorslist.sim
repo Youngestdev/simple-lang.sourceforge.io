@@ -21,6 +21,11 @@ add(contributorsList, c)
 c = new Contributor(imageUrl+"contributors/noimage.jpg", "Ebuka", "Documentation", "")
 c.github("https://github.com/ebiboy2") 
 add(contributorsList, c)
+#kvng_zeez
+c = new Contributor(imageUrl+"contributors/budul.jpg", "Abdulazeez Abdulazeez Adeshina", "Build", "Building based on my thoughts")
+c.github("https://github.com/Youngestdev") c.email("laisibizness@gmail.com")
+c.twitter("https://twitter.com/kvng_zeez")
+add(contributorsList, c)
 
 class Contributor 
 
