@@ -7,18 +7,15 @@ call "web/front/elements/Table.sim"
 
 versions = []
 
+versions 
+
 table = new Table(1,"alt")
 #table.addTHead() 
 table.addToHead(["Version","Realease Date","Download Link"])
-for a = 0 to lengthOf(versions)
-	table.addToBody(versions[a])
+vlen = lengthOf(versions)
+for a = 0 to vlen
+	table.addToBody(versions[a].toString())
 end
-
-tdiv = new Div tdiv.setStyleClass("table-wrapper")
-tdiv.add(table)
-webpage = new Webpage()
-webpage.addToBody(tdiv)
-webpage.render()
 
 
 /*<div class="">

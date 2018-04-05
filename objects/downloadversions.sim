@@ -3,21 +3,11 @@
 call "web/front/Webpage.sim" 
 call "web/front/elements/Elements.sim"
 call "web/front/elements/Div.sim"
-call "downloadclass.sim"
+#call "downloadclass.sim"
 
-vlen = lengthOf(versions)
-for a = 0 to vlen
-	table.addToBody(versions[a])
-end
 
 tdiv = new Div tdiv.setStyleClass("table-wrapper")
-tdiv.add(table)
-webpage = new Webpage()
-webpage.addToBody(tdiv)
-webpage.render()
-
-
-/*<div class="">
+tdiv.addHTML('<div class="">
 											<table class="alt">
 												<thead>
 													<tr>
@@ -46,4 +36,15 @@ webpage.render()
 													</tr>
 												</tfoot>
 											</table>
-										</div>*/
+										</div>')
+webpage = new Webpage()
+webpage.addToBody(tdiv)
+webpage.addToBody('<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/custom.js"></script>')
+webpage.render()
+
