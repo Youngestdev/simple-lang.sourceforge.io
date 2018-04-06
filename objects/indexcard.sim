@@ -29,7 +29,9 @@ indexSharesSummariesList = [
 		new IndexSummary('<div class="minisummary">
 			<div>Contributor Of The Week</div>
 			<ul>
-				<img src="'+weekContributorImage+'" alt="'+weekContributorName+'" width="1366" height="729">					
+				<p><img src="'+weekContributorImage+'" style="float:left" alt="'+weekContributorName+'" width="300" height="230">	
+				'+weekContributorName+'	<br/><br/><br/><br/><br/>
+				</p>
 				</ul>
 		</div>'),#do not edit the list index
 		new IndexSummary('<div class="minisummary">
