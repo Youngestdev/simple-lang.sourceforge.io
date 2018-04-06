@@ -62,13 +62,14 @@
 	color : white ;
 }
 
-.summary span {
-	height : 200px ;
+.summary div {
+	height : 50px ;
 	font-weight: 900;
-	font-size : 50px ;
+	font-size : 30px ;
+	padding:4px;
 }
 
-.summary p {
+.summary p ul li {
 	color : black ;
 	background : white ;
 	bottom : 0px ;
