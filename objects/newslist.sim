@@ -1,0 +1,11 @@
+newsList = [new Link("hjjh", ""),
+			new Link("hjjh", ""),
+			new Link(".", "#"),
+			new Link(".", "#"),
+			new Link(".", "#"),
+			new Link(".", "#"),
+			new Link(".", "#")
+]
+
+weekContributorImage = imageUrl+"contributors/budul.jpg"
+weekContributorName = "Abdulazeez Abdulazeez Adeshina"
