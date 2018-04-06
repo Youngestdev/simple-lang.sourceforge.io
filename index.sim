@@ -25,17 +25,21 @@ head.addMeta(headMeta4)
 head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.addLink(style1) head.addLink(style2)
 #end head styling 
 headerWebpage.setHead(head)
+summaryContent = new Div("")
 bodyContent = new Div("index-div")
 
-bodyContent.addHTML('
+summaryContent.addHTML('
 	<div class="summary">
 		<span>Objective of SIMPLE</span>
+		<p>
+			jhjhsjhjfhjdhfjh
+		</p>
 	</div>
 ') 
 
 iclen = lengthOf(indexSummariesList)
 for a = 0 to iclen 
-	bodyContent.add(indexSummariesList[a])
+	summaryContent.add(indexSummariesList[a])
 end
 iclen = lengthOf(indexCardList)
 for a = 0 to iclen 
@@ -43,7 +47,7 @@ for a = 0 to iclen
 end
 #
 pageWrapper = new Div("page-wrapper")
-pageWrapper.add([headerWrapper,bodyContent])
+pageWrapper.add([headerWrapper,summaryContent,bodyContent])
 
 headerWebpage.setBodyClass("homepage")
 headerWebpage.addToBody(pageWrapper)
