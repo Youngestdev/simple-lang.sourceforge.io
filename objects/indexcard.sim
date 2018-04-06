@@ -5,17 +5,20 @@ indexSummariesList = [
 		new IndexSummary('<div class="summary">
 			<div>What is SIMPLE</div>
 			<ul>
-				SIMPLE is a programming language designed for productivity and learning purpose. 				
+				SIMPLE is a programming language designed for productivity and learning purpose. It is built with transparency and visual implementation. A high-level language that enable the programmer to create simple 
+				and complex program for general or domain specific purpose. It is very small in size which gives it an advantage to be used in embedded systems, fast and comes with a smart Garbage Collector (GC) that 
+				keep the memory in check and in the programmers control. It is designed can also be used as a basic learning project on how a programming language works
 				</ul>
 		</div>'),
 		new IndexSummary('<div class="summary">
 			<div>Objective of SIMPLE</div>
 			<ul>
 				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
-				<li>Productivity and developing high quality solutions that can scale.</li>			
-				<li>Small and fast language that can be embedded in C/C++ projects. <a href="http://ring-lang.sourceforge.net/doc1.7/embedding.html" target="_blank"> How? </a></li>
-				<li>Simple language that can be used in education and introducing Compiler/VM concepts. <a href="http://ring-lang.sourceforge.net/#education" target="_blank"> How? </a></li>
-				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. <a href="http://ring-lang.sourceforge.net/doc1.7/naturallibrary.html" target="_blank"> How? </a></li>					
+				<li>Developing on different domain with available modules.</li>
+				<li>Productivity and developing high quality programs and solutions .</li>			
+				<li>Small and fast language that can be embedded in C/C++ projects. </li>
+				<li>Simple language that can be used in education and introducing Compiler/VM concepts. </li>
+				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. </li>					
 				</ul>
 		</div>')
 ]
