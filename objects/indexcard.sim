@@ -5,6 +5,12 @@ indexSummariesList = [
 
 ]
 
+class IndexSummary 
+
+	block IndexSummary(raw)
+	
+	block toString() return raw
+
 # the cards
 
 indexCardList = [

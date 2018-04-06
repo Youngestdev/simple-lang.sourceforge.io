@@ -82,6 +82,11 @@
 	font-size : 15px ;
 }
 
+.summary ul a {
+	color : #257591 ;
+	font-weight: 900;
+}
+
 #index-div {
 	display: flex;
 	color : dark-gray ;
