@@ -2,7 +2,8 @@
 
 indexCardList = [
 		new IndexCard("Download","Download simple binaries and source files for all version and different operating system","download latest version", downloadUrl, ""),
-		new IndexCard("Documentation","The standard documentation is still cooking, but you can get started at once by looking through the starter file","getting started", gettingStartedUrl, "")
+		new IndexCard("Documentation","The standard documentation is still cooking, but you can get started at once by looking through the starter file","getting started", gettingStartedUrl, ""),
+		new IndexCard("Speed","","", '', "")
 	]
 	
 class IndexCard 
