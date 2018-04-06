@@ -1,5 +1,5 @@
-newsList = [new Link("hjjh", ""),
-			new Link("hjjh", ""),
+newsList = [new Link("Introducing SIMPLE - A new programming language", "https://dev.to/kvng_zeez/introducing-simple---a-new-programming-language--ld9"),
+			new Link("SIMPLE (Simple Intelligent and Modular Programming Language and Environment)", "https://medium.com/@thecarisma/simple-simple-intelligent-and-modular-programming-language-and-environment-eed1a7551ec3"),
 			new Link(".", "#"),
 			new Link(".", "#"),
 			new Link(".", "#"),
