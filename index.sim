@@ -26,15 +26,16 @@ head.addMeta(headMeta)  head.addElement(headMeta2) head.addMeta(headMeta3) head.
 #end head styling 
 headerWebpage.setHead(head)
 summaryContent = new Div("")
+ssummaryContent = new Div("shared-summary")
 bodyContent = new Div("index-div")
-
-summaryContent.addHTML('
-	
-') 
 
 iclen = lengthOf(indexSummariesList)
 for a = 0 to iclen 
 	summaryContent.add(indexSummariesList[a])
+end
+iclen = lengthOf(indexSharesSummariesList)
+for a = 0 to iclen 
+	ssummaryContent.add(indexSharesSummariesList[a])
 end
 iclen = lengthOf(indexCardList)
 for a = 0 to iclen 
@@ -42,7 +43,7 @@ for a = 0 to iclen
 end
 #
 pageWrapper = new Div("page-wrapper")
-pageWrapper.add([headerWrapper,summaryContent,bodyContent])
+pageWrapper.add([headerWrapper,summaryContent,ssummaryContent,bodyContent])
 
 headerWebpage.setBodyClass("homepage")
 headerWebpage.addToBody(pageWrapper)

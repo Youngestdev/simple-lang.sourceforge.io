@@ -20,7 +20,10 @@ indexSummariesList = [
 				<li>Simple language that can be used in education and introducing Compiler/VM concepts. </li>
 				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. </li>					
 				</ul>
-		</div>'),
+		</div>')
+]
+
+indexSharesSummariesList = [
 		new IndexSummary('<div class="minisummary">
 			<div>Contributor Of The Week</div>
 			<ul>

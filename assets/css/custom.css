@@ -65,6 +65,15 @@
 	color : white ;
 }
 
+#shared-summary {
+	display: flex;
+	color : dark-gray ;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	position:relative;
+	align-items: flex-start;
+}
+
 .minisummary {
 	border-radius:5px;
 	margin:3%;
