@@ -1,9 +1,10 @@
 #
 
 indexCardList = [
-		new IndexCard("Simplicity","The language is designed to be  <br/> very simple with plain syntax. <br/> Making it easier to code for both novice and professionals","", '', ""),
-		new IndexCard("Download","Download simple binaries and source files for all version and different operating system","download latest version", downloadUrl, ""),
-		new IndexCard("Documentation","The standard documentation is still cooking, but you can get started at once by looking through the starter file","getting started", gettingStartedUrl, "")
+		new IndexCard("Simplicity","The language is designed to be  <br/> very simple with plain syntax. <br/> Making it easier to code for both novice and professionals. It does <br/>not need any Type Scope or Boilerplate.","", '', ""),
+		new IndexCard("Download","Download simple binaries and source files for all version and different operating system","download latest version.", downloadUrl, ""),
+		new IndexCard("Documentation","The standard documentation is still cooking, but you can get started at once by looking through the starter file.","getting started", gettingStartedUrl, ""),
+		new IndexCard("Contribution","The standard documentation is still cooking, but you can get started at once by looking through the starter file","make your contribution", contributeUrl, "")
 	]
 	
 class IndexCard 
