@@ -31,7 +31,7 @@ pageWrapper.add([headerWrapper])
 #licence content
 cdiv = new Div("main") cdiv.setStyleClass("container")
 article = new Article("content") he = new Header he.addHTML('<h2>Downloads For LINUX/UNIX</h2>
-<p>Download all the builds for windows. It is arrange by the version number with the latest version at the top and the least version at the bottom.</p>')
+<p>Download all the builds for Linux/Unix. It is arrange by the version number with the latest version at the top and the least version at the bottom.</p>')
 contBox = new Div contBox.setStyleClass("box alt")
 contBox.addHTML('<iframe id="windows_frame" style="height:60%;width:100%;background:white;border:solid 1px gray;">
 	
