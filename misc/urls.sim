@@ -30,7 +30,7 @@ contributorsUrl = url+"pages/contributors.sim"
 contributeUrl = url+"pages/contribute.sim"
 buildFromScratchUrl = url+"pages/buildfromsource.sim"
 
-examplesUrl = "./pages/examples/"
+examplesUrl = url+"pages/examples/"
 	helloWorldUrl = examplesUrl+"helloworld.sim"
 	syntaxExampleUrl = examplesUrl+"syntax.sim"
 	coreModulesExampleUrl = examplesUrl+"core_modules.sim"

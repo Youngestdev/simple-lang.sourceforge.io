@@ -2,14 +2,23 @@
 #the summaries
 
 indexSummariesList = [
-
+		new IndexSummary('<div class="summary">
+			<div>What is SIMPLE</div>
+			<ul>
+				jhjhdjh					
+				</ul>
+		</div>'),
+		new IndexSummary('<div class="summary">
+			<div>Objective of SIMPLE</div>
+			<ul>
+				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
+				<li>Productivity and developing high quality solutions that can scale.</li>			
+				<li>Small and fast language that can be embedded in C/C++ projects. <a href="http://ring-lang.sourceforge.net/doc1.7/embedding.html" target="_blank"> How? </a></li>
+				<li>Simple language that can be used in education and introducing Compiler/VM concepts. <a href="http://ring-lang.sourceforge.net/#education" target="_blank"> How? </a></li>
+				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. <a href="http://ring-lang.sourceforge.net/doc1.7/naturallibrary.html" target="_blank"> How? </a></li>					
+				</ul>
+		</div>')
 ]
-
-class IndexSummary 
-
-	block IndexSummary(raw)
-	
-	block toString() return raw
 
 # the cards
 
@@ -41,4 +50,11 @@ class IndexCard
 		'+heading+detail+link+raw+'
 			</ul>'
 			
-			
+class IndexSummary 
+
+	raw = ""
+	
+	block IndexSummary(iraw)
+		raw = iraw
+	
+	block toString() return raw			
