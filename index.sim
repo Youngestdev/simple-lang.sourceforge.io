@@ -31,8 +31,7 @@ bodyContent = new Div("index-div")
 summaryContent.addHTML('
 	<div class="summary">
 		<div>Objective of SIMPLE</div>
-		<p>
-			<ul>
+		<ul>
 			<li>Applications programming language. <a href="http://ring-lang.sourceforge.net/doc1.7/ringapps.html" target="_blank"> Examples? </a> </li>
 			<li>Productivity and developing high quality solutions that can scale.</li>			
 			<li>Small and fast language that can be embedded in C/C++ projects. <a href="http://ring-lang.sourceforge.net/doc1.7/embedding.html" target="_blank"> How? </a></li>
@@ -40,7 +39,6 @@ summaryContent.addHTML('
 			<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. <a href="http://ring-lang.sourceforge.net/doc1.7/naturallibrary.html" target="_blank"> How? </a></li>
 			<li>Practical language designed for creating the next version of the Programming Without Coding Technology software. <a href="http://pwct.org/" target="_blank"> What? </a></li>							
 			</ul>
-		</p>
 	</div>
 ') 
 

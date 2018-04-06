@@ -55,27 +55,31 @@
 }
 
 .summary {
-	border: solid 3px #257591;
 	border-radius:5px;
 	margin:3%;
-	background : #257591;
+	background-image: url("images/header.svg");
+	background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
+	background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 	color : white ;
 }
 
 .summary div {
 	height : 50px ;
 	font-weight: 900;
-	font-size : 30px ;
-	padding:4px;
+	font-size : 20px ;
+	padding:9px;
 }
 
-.summary p ul li {
+.summary ul {
 	color : black ;
 	background : white ;
 	bottom : 0px ;
 	border-radius:3px;
 	padding : 1% ;
 	border: solid 1px #257591;
+	font-size : 15px ;
 }
 
 #index-div {
