@@ -1,8 +1,15 @@
-#
+
+#the summaries
+
+indexSummariesList = [
+
+]
+
+# the cards
 
 indexCardList = [
 		new IndexCard("Simplicity","The language is designed to be  <br/> very simple with plain syntax. <br/> Making it easier to code for both novice and professionals. It does <br/>not need any Type Scope or Boilerplate.","", '', ""),
-		new IndexCard("Download","Download simple binaries and source files for all version and different operating system. Follow the link bellow to download latest.","download latest version or build from source", downloadUrl, ""),
+		new IndexCard("Download","Download simple binaries and source files for all version and different operating system. Follow the link bellow to download latest  or build from source.","download latest version", downloadUrl, ""),
 		new IndexCard("Documentation","The standard documentation is still cooking, but you can get started at once by looking through the starter file.","getting started", gettingStartedUrl, ""),
 		new IndexCard("Contribution","Do you wish to make the simple community better or bigger. All sort of positive contribution or supports is highly valued and appreciated.","make your contribution", contributeUrl, "")
 	]
@@ -27,3 +34,5 @@ class IndexCard
 		return '<ul>
 		'+heading+detail+link+raw+'
 			</ul>'
+			
+			
