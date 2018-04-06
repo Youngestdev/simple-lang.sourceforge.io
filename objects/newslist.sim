@@ -9,3 +9,4 @@ newsList = [new Link("hjjh", ""),
 
 weekContributorImage = imageUrl+"contributors/budul.jpg"
 weekContributorName = "Abdulazeez Abdulazeez Adeshina"
+weekContributorNote = "Building based on my thoughts"

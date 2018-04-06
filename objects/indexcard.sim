@@ -29,8 +29,8 @@ indexSharesSummariesList = [
 		new IndexSummary('<div class="minisummary">
 			<div>Contributor Of The Week</div>
 			<ul>
-				<p><img src="'+weekContributorImage+'" style="float:left" alt="'+weekContributorName+'" width="300" height="230">	
-				'+weekContributorName+'	<br/><br/><br/><br/><br/>
+				<p><img src="'+weekContributorImage+'" style="float:left;margin:10px;" alt="'+weekContributorName+'" width="300" height="230">	
+				<span style="font-weight:bold;font-size:20px;">'+weekContributorName+'</span><br/>'+weekContributorNote+'<br/><br/><br/><br/><br/>
 				</p>
 				</ul>
 		</div>'),#do not edit the list index
@@ -43,7 +43,7 @@ indexSharesSummariesList = [
 				<li>'+newsList[3].toString()+'</li>
 				<li>'+newsList[4].toString()+'</li>
 				<li>'+newsList[5].toString()+'</li>	
-				<li>'+newsList[6].toString()+'</li>				
+				<li>'+newsList[6].toString()+'</li>	<br/>		
 				</ul>
 		</div>')
 ]

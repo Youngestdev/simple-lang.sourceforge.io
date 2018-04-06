@@ -4,7 +4,7 @@ $(document).ready(function(){
 	buttonClicks(); 
 	$('#try_online_shell').hide();
 	$("#introduction > div:gt(0)").hide();
-	slideShow();
+	//slideShow();
   
 });
 
