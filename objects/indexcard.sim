@@ -11,7 +11,29 @@ indexSummariesList = [
 				</ul>
 		</div>'),
 		new IndexSummary('<div class="summary">
-			<div>Objective of SIMPLE</div>
+			<div>Objective Of SIMPLE</div>
+			<ul>
+				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
+				<li>Developing on different domain with available modules.</li>
+				<li>Productivity and developing high quality programs and solutions .</li>			
+				<li>Small and fast language that can be embedded in C/C++ projects. </li>
+				<li>Simple language that can be used in education and introducing Compiler/VM concepts. </li>
+				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. </li>					
+				</ul>
+		</div>'),
+		new IndexSummary('<div class="minisummary">
+			<div>Contributor Of The Week</div>
+			<ul>
+				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
+				<li>Developing on different domain with available modules.</li>
+				<li>Productivity and developing high quality programs and solutions .</li>			
+				<li>Small and fast language that can be embedded in C/C++ projects. </li>
+				<li>Simple language that can be used in education and introducing Compiler/VM concepts. </li>
+				<li>General-Purpose language that can be used for creating domain-specific libraries, frameworks and tools. </li>					
+				</ul>
+		</div>'),
+		new IndexSummary('<div class="minisummary">
+			<div>Latest News</div>
 			<ul>
 				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
 				<li>Developing on different domain with available modules.</li>
