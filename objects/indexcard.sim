@@ -5,7 +5,7 @@ indexSummariesList = [
 		new IndexSummary('<div class="summary">
 			<div>What is SIMPLE</div>
 			<ul>
-				jhjhdjh					
+				SIMPLE is a programming language designed for productivity and learning purpose. 				
 				</ul>
 		</div>'),
 		new IndexSummary('<div class="summary">
