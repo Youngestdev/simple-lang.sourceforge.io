@@ -23,6 +23,8 @@ indexSummariesList = [
 		</div>')
 ]
 
+newsList = [new Link("hjjh", "")]
+
 indexSharesSummariesList = [
 		new IndexSummary('<div class="minisummary">
 			<div>Contributor Of The Week</div>
@@ -38,7 +40,7 @@ indexSharesSummariesList = [
 		new IndexSummary('<div class="minisummary">
 			<div>Latest News</div>
 			<ul>
-				<li>Applications programming language. <a href="'+examplesUrl+'" target="_blank"> Examples? </a> </li>
+				<li>'+newsList[0]+'</li>
 				<li>Developing on different domain with available modules.</li>
 				<li>Productivity and developing high quality programs and solutions .</li>			
 				<li>Small and fast language that can be embedded in C/C++ projects. </li>

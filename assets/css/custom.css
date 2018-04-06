@@ -69,21 +69,38 @@
 	display: flex;
 	color : dark-gray ;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
 	position:relative;
 	align-items: flex-start;
 }
 
 .minisummary {
 	border-radius:5px;
-	margin:3%;
+	margin-left:3%;
+	margin-right:3%;
 	background-image: url("images/header.svg");
 	background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 	background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 	background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 	background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #048ab7 15%, #048ab7 55%);
 	color : white ;
-	width : 30% ;
+	width : 44% ;
+}
+
+.minisummary div {
+	height : 50px ;
+	font-weight: 900;
+	font-size : 20px ;
+	padding:9px;
+}
+
+.minisummary ul {
+	color : black ;
+	background : white ;
+	bottom : 0px ;
+	border-radius:3px;
+	padding : 1% ;
+	border: solid 1px #257591;
+	font-size : 15px ;
 }
 
 .summary div {
