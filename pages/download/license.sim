@@ -1,4 +1,4 @@
-#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\bootsrc\dist\Debug\MinGW-Windows\simple.exe -cgi
+#!C:\Users\thecarisma\Documents\SIMPLE GITHUB\simple\src\dist\Debug\MinGW-Windows\simple.exe -cgi
 
 call "web/style/StyleAttributes.sim" 
 call "web/style/StyleColor.sim" ? web.style

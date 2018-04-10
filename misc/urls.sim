@@ -42,10 +42,10 @@ examplesUrl = url+"pages/examples/"
 
 #about links in footer
 aboutList = []
-add(aboutList, new Link("Simple", "google.com"))
-add(aboutList, new Link("Modules", "google.com"))
-add(aboutList, new Link("Environments", "google.com"))
-add(aboutList, new Link("Help", "google.com"))
+add(aboutList, new Link("Simple", url))
+add(aboutList, new Link("Modules", modulesUrl))
+add(aboutList, new Link("Environments", environmentUrl))
+add(aboutList, new Link("Help", gettingStartedUrl))
 
 #download links in footer
 downloadList = []

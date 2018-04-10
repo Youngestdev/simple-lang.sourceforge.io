@@ -92,7 +92,7 @@ if locationUrl == 0 {
 	<ul class="actions">
 		<!--<li><a href="#" id="shell_hero" class="button">TRY ONLINE</a></li>-->
 		<li><a href="'+downloadUrl+'" class="button">Download</a></li>
-		<!--<li><a href="./examples/" class="button">Gallery</a></li>-->
+		<!--<li><a href="./pages/examples/" class="button">Gallery</a></li>-->
 	</ul>') #
 	headerWrapper.add([header,landingSection])
  else 
